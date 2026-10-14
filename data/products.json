@@ -268,7 +268,13 @@
     ],
     "isNew": false,
     "rating": 4.6,
-    "reviewCount": 2210
+    "reviewCount": 2210,
+    "images": {
+      "c0": [
+        "/products/relaxed-cotton-tee/c0-1.webp",
+        "/products/relaxed-cotton-tee/c0-2.webp"
+      ]
+    }
   },
   {
     "id": "p06",
@@ -320,7 +326,13 @@
     ],
     "isNew": true,
     "rating": 4.4,
-    "reviewCount": 540
+    "reviewCount": 540,
+    "images": {
+      "c0": [
+        "/products/fitted-baby-tee/c0-1.webp",
+        "/products/fitted-baby-tee/c0-2.webp"
+      ]
+    }
   },
   {
     "id": "p07",
@@ -364,7 +376,13 @@
     "tags": [],
     "isNew": false,
     "rating": 4.5,
-    "reviewCount": 388
+    "reviewCount": 388,
+    "images": {
+      "c0": [
+        "/products/ribbed-knit-sweater/c0-1.webp",
+        "/products/ribbed-knit-sweater/c0-2.webp"
+      ]
+    }
   },
   {
     "id": "p08",
@@ -406,7 +424,13 @@
     "tags": [],
     "isNew": false,
     "rating": 4.3,
-    "reviewCount": 211
+    "reviewCount": 211,
+    "images": {
+      "c0": [
+        "/products/crisp-poplin-shirt/c0-1.webp",
+        "/products/crisp-poplin-shirt/c0-2.webp"
+      ]
+    }
   },
   {
     "id": "p09",
