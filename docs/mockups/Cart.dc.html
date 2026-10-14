@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>NeverWear 购物车 手机版</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,600&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#FFFFFF}
+a{color:#141414;text-decoration:none}a:hover{color:#C2185B}
+</style>
+</helmet>
+<div style="position: relative; width: 390px; height: 844px; overflow: hidden; background: #FFFFFF; font-family: 'Noto Sans SC', system-ui, sans-serif; color: #141414">
+  <header style="height: 56px; padding: 0 6px; display: flex; align-items: center; gap: 4px; border-bottom: 1px solid #E3E1DC">
+    <a href="MobileProduct.dc.html" aria-label="返回" style="width: 44px; height: 44px; display: flex; align-items: center; justify-content: center">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"></path></svg>
+    </a>
+    <span style="font-size: 17px; font-weight: 500">购物车（2）</span>
+  </header>
+
+  <div style="padding: 14px 16px; display: flex; flex-direction: column; gap: 8px; border-bottom: 1px solid #E3E1DC">
+    <span style="font-size: 13px">再买 <strong style="font-weight: 700; color: #C2185B">$13</strong> 即可获赠限量帆布托特包</span>
+    <div style="height: 6px; background: #EDEBE6">
+      <div style="width: 96%; height: 6px; background: #C2185B"></div>
+    </div>
+  </div>
+
+  <div style="margin: 12px 16px 0; background: #F2F0EB; padding: 10px 12px; font-size: 12px; color: #3A3A3A">
+    购物车商品不保留库存，热门尺码可能随时售罄
+  </div>
+
+  <ul style="margin: 0; padding: 0 16px; list-style: none">
+    <li style="display: flex; gap: 12px; padding: 14px 0; border-bottom: 1px solid #E3E1DC">
+      <div style="flex: none; width: 84px; height: 112px; background: #5A3A2C"></div>
+      <div style="flex: 1; display: flex; flex-direction: column; gap: 4px; min-width: 0">
+        <div style="display: flex; justify-content: space-between; gap: 8px">
+          <span style="font-size: 14px; font-weight: 500">细跟过膝靴</span>
+          <span style="font-size: 14px; font-weight: 500">$189</span>
+        </div>
+        <span style="font-size: 12px; color: #5C5C5C">巧克力棕 · US 7</span>
+        <span style="font-size: 12px; color: #C2185B">仅剩 1 双</span>
+        <div style="margin-top: auto; display: flex; align-items: center; border: 1px solid #CFCBC4; width: max-content">
+          <button aria-label="减少数量" style="width: 36px; height: 32px; border: 0; background: transparent; font-size: 16px; color: #141414">−</button>
+          <span style="width: 28px; text-align: center; font-size: 13px">1</span>
+          <button aria-label="增加数量" style="width: 36px; height: 32px; border: 0; background: transparent; font-size: 16px; color: #141414">+</button>
+        </div>
+      </div>
+    </li>
+    <li style="display: flex; gap: 12px; padding: 14px 0; border-bottom: 1px solid #E3E1DC">
+      <div style="flex: none; width: 84px; height: 112px; background: #9AA58C"></div>
+      <div style="flex: 1; display: flex; flex-direction: column; gap: 4px; min-width: 0">
+        <div style="display: flex; justify-content: space-between; gap: 8px">
+          <span style="font-size: 14px; font-weight: 500">缎面中长半裙</span>
+          <span style="font-size: 14px; font-weight: 500">$98</span>
+        </div>
+        <span style="font-size: 12px; color: #5C5C5C">鼠尾草绿 · S</span>
+        <div style="margin-top: auto; display: flex; align-items: center; border: 1px solid #CFCBC4; width: max-content">
+          <button aria-label="减少数量" style="width: 36px; height: 32px; border: 0; background: transparent; font-size: 16px; color: #141414">−</button>
+          <span style="width: 28px; text-align: center; font-size: 13px">1</span>
+          <button aria-label="增加数量" style="width: 36px; height: 32px; border: 0; background: transparent; font-size: 16px; color: #141414">+</button>
+        </div>
+      </div>
+    </li>
+  </ul>
+
+  <dl style="margin: 0; padding: 12px 16px 0; display: grid; grid-template-columns: 1fr auto; gap: 6px 12px; font-size: 13px">
+    <dt style="color: #3A3A3A">小计</dt><dd style="margin: 0">$287.00</dd>
+    <dt style="color: #3A3A3A">运费</dt><dd style="margin: 0">$0.00</dd>
+    <dt style="color: #3A3A3A">HST 13%</dt><dd style="margin: 0">$37.31</dd>
+  </dl>
+
+  <div style="margin: 12px 16px 0; padding: 12px; border: 1px solid #E3E1DC; display: flex; align-items: center; justify-content: space-between; gap: 8px">
+    <div style="display: flex; align-items: center; gap: 10px">
+      <span style="width: 38px; height: 26px; background: #141414; color: #FFFFFF; font-size: 9px; font-weight: 700; letter-spacing: 0.06em; display: flex; align-items: center; justify-content: center">NW</span>
+      <span style="display: flex; flex-direction: column">
+        <span style="font-size: 13px; font-weight: 500">NeverPay •••• 0000</span>
+        <span style="font-size: 11px; color: #5C5C5C">默认付款方式</span>
+      </span>
+    </div>
+    <a href="#" style="font-size: 12px; border-bottom: 1px solid #141414">更换</a>
+  </div>
+
+  <div style="position: absolute; left: 0; right: 0; bottom: 0; padding: 12px 16px 22px; background: #FFFFFF; border-top: 1px solid #E3E1DC; display: flex; flex-direction: column; gap: 6px">
+    <div style="display: flex; justify-content: space-between; font-size: 15px; font-weight: 500"><span>合计</span><span>$324.31</span></div>
+    <a href="Tracking.dc.html" style="height: 52px; background: #141414; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-size: 15px; font-weight: 500">去结算</a>
+    <span style="font-size: 10px; color: #8A8780; text-align: center">模拟支付，不会实际扣款</span>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return {};
+  }
+}
+</script>
+</body>
+</html>

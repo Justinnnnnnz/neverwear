@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>NeverWear 商品详情 网页版</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,600&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#FFFFFF}
+a{color:#141414;text-decoration:none}a:hover{color:#C2185B}
+</style>
+</helmet>
+<div style="font-family: 'Noto Sans SC', system-ui, sans-serif; color: #141414; background: #FFFFFF">
+  <header style="border-bottom: 1px solid #E3E1DC">
+    <div style="max-width: 1360px; margin: 0 auto; padding: 14px 40px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 32px">
+      <a href="Main.dc.html" style="font-family: 'Bodoni Moda', serif; font-size: 30px; font-weight: 600; letter-spacing: 0.12em">NEVERWEAR</a>
+      <nav aria-label="主导航" style="display: flex; flex-wrap: wrap; gap: 8px 28px; font-size: 14px; font-weight: 500">
+        <a href="#">New In</a>
+        <a href="#">外套 Outerwear</a>
+        <a href="#">上衣 Tops</a>
+        <a href="#">裙装 Skirts</a>
+        <a href="#">裤装 Pants</a>
+        <a href="#">鞋履 Shoes</a>
+        <a href="#" style="color: #C2185B">Sale</a>
+      </nav>
+      <div style="display: flex; align-items: center; gap: 4px">
+        <button aria-label="搜索" style="width: 44px; height: 44px; border: 0; background: transparent; color: #141414; display: flex; align-items: center; justify-content: center; cursor: pointer">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
+        </button>
+        <button aria-label="购物车，{{cartCount}} 件" style="position: relative; width: 44px; height: 44px; border: 0; background: transparent; color: #141414; display: flex; align-items: center; justify-content: center; cursor: pointer">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 8h14l-1 13H6L5 8z"></path><path d="M9 8V6a3 3 0 0 1 6 0v2"></path></svg>
+          <span style="position: absolute; top: 6px; right: 4px; min-width: 18px; height: 18px; border-radius: 9px; background: #C2185B; color: #FFFFFF; font-size: 11px; font-weight: 700; display: flex; align-items: center; justify-content: center">{{cartCount}}</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div style="max-width: 1360px; margin: 0 auto; padding: 20px 40px 0; font-size: 13px; color: #5C5C5C; display: flex; flex-wrap: wrap; gap: 8px">
+    <a href="Main.dc.html" style="color: #5C5C5C">首页</a><span>/</span><a href="#" style="color: #5C5C5C">鞋履</a><span>/</span><a href="#" style="color: #5C5C5C">高跟靴</a><span>/</span><span style="color: #141414">细跟过膝靴</span>
+  </div>
+
+  <main style="max-width: 1360px; margin: 0 auto; padding: 20px 40px 64px; display: flex; flex-wrap: wrap; gap: 48px; align-items: flex-start">
+    <div style="flex: 1.3 1 560px; min-width: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px">
+      <div style="aspect-ratio: 3 / 4; background: {{mainBg}}; display: flex; align-items: flex-end; padding: 16px; box-sizing: border-box"><span style="font-size: 11px; letter-spacing: 0.14em; color: {{mainInk}}">[ 正面 ]</span></div>
+      <div style="aspect-ratio: 3 / 4; background: {{mainBg}}; opacity: 0.85; display: flex; align-items: flex-end; padding: 16px; box-sizing: border-box"><span style="font-size: 11px; letter-spacing: 0.14em; color: {{mainInk}}">[ 侧面 ]</span></div>
+      <div style="aspect-ratio: 3 / 4; background: #E9E5DE; display: flex; align-items: flex-end; padding: 16px; box-sizing: border-box"><span style="font-size: 11px; letter-spacing: 0.14em; color: #5E574C">[ 上脚图 · 模特 172cm ]</span></div>
+      <div style="aspect-ratio: 3 / 4; background: #F2F0EB; display: flex; align-items: flex-end; padding: 16px; box-sizing: border-box"><span style="font-size: 11px; letter-spacing: 0.14em; color: #5E574C">[ 细节 · 跟高 9cm ]</span></div>
+    </div>
+
+    <div style="flex: 1 1 380px; max-width: 520px; display: flex; flex-direction: column; gap: 24px">
+      <div style="display: flex; flex-direction: column; gap: 8px">
+        <span style="font-size: 12px; letter-spacing: 0.16em; color: #5C5C5C">NEW IN · 高跟靴</span>
+        <h1 style="margin: 0; font-size: 30px; font-weight: 500; line-height: 1.3">细跟过膝靴</h1>
+        <span style="font-family: 'Bodoni Moda', serif; font-size: 20px; color: #3A3A3A">Stiletto Knee Boot</span>
+        <div style="display: flex; align-items: baseline; gap: 12px; margin-top: 6px">
+          <span style="font-size: 24px; font-weight: 500">$189.00</span>
+          <span style="font-size: 16px; color: #5C5C5C; text-decoration: line-through">$239.00</span>
+          <span style="font-size: 13px; font-weight: 700; color: #C2185B">-21%</span>
+        </div>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 10px">
+        <span style="font-size: 14px">颜色：<span style="font-weight: 500">{{colorName}}</span></span>
+        <div style="display: flex; gap: 8px">
+          <sc-for list="{{colors}}" as="c" hint-placeholder-count="2">
+            <button aria-label="{{c.name}}" onClick="{{c.pick}}" style="{{c.ring}}">
+              <span style="display: block; width: 32px; height: 32px; border-radius: 50%; background: {{c.hex}}"></span>
+            </button>
+          </sc-for>
+        </div>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 12px">
+        <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px">
+          <span style="font-size: 14px">尺码</span>
+          <div role="group" aria-label="尺码单位" style="display: flex; border: 1px solid #141414">
+            <sc-for list="{{units}}" as="u" hint-placeholder-count="3">
+              <button onClick="{{u.pick}}" style="{{u.style}}">{{u.label}}</button>
+            </sc-for>
+          </div>
+          <a href="#" style="font-size: 13px; border-bottom: 1px solid #141414">尺码表 / 鞋码换算</a>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px">
+          <sc-for list="{{sizes}}" as="s" hint-placeholder-count="8">
+            <button onClick="{{s.pick}}" disabled="{{s.soldOut}}" aria-label="{{s.aria}}" style="{{s.style}}">{{s.label}}</button>
+          </sc-for>
+        </div>
+        <sc-if value="{{lowStock}}" hint-placeholder-val="{{true}}">
+          <span style="font-size: 14px; font-weight: 500; color: #C2185B">仅剩 1 双！另有 23 人正在看这双靴子</span>
+        </sc-if>
+        <sc-if value="{{normalStock}}" hint-placeholder-val="{{false}}">
+          <span style="font-size: 14px; color: #3A3A3A">有货 · 23 人正在看</span>
+        </sc-if>
+        <div style="background: #F2F0EB; padding: 14px 16px; font-size: 13px; line-height: 1.7; color: #3A3A3A">
+          <strong style="font-weight: 500; color: #141414">Fit：偏小半码</strong>，建议选大半码。跟高 9 cm · 靴筒高 42 cm · 鞋面 PU 皮
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 8px">
+        <button onClick="{{addToCart}}" style="flex: 1; height: 56px; border: 0; background: #141414; color: #FFFFFF; font-family: inherit; font-size: 16px; font-weight: 500; cursor: pointer">{{addLabel}}</button>
+        <button aria-label="加入心愿单" style="width: 56px; height: 56px; border: 1px solid #141414; background: #FFFFFF; color: #141414; display: flex; align-items: center; justify-content: center; cursor: pointer">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"></path></svg>
+        </button>
+      </div>
+
+      <span style="font-size: 11px; color: #8A8780; margin-top: -14px">模拟购物 · 不会实际扣款</span>
+
+      <ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 10px; font-size: 14px; color: #3A3A3A; border-top: 1px solid #E3E1DC; padding-top: 20px">
+        <li>满 $150 免运费</li>
+        <li>预计 <strong style="font-weight: 500; color: #141414">10月17日 – 10月20日</strong> 送达</li>
+        <li>30 天免费退换</li>
+      </ul>
+
+      <div style="border-top: 1px solid #E3E1DC; padding-top: 20px; display: flex; flex-direction: column; gap: 14px">
+        <div style="display: flex; align-items: baseline; justify-content: space-between">
+          <span style="font-size: 16px; font-weight: 500">评价 4.6 / 5</span>
+          <a href="#" style="font-size: 13px; border-bottom: 1px solid #141414">全部 128 条</a>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 6px">
+          <div style="position: relative; height: 4px; background: #E3E1DC">
+            <span style="position: absolute; left: 30%; top: -5px; width: 14px; height: 14px; border-radius: 50%; background: #141414"></span>
+          </div>
+          <div style="display: flex; justify-content: space-between; font-size: 12px; color: #5C5C5C"><span>偏小</span><span>合适</span><span>偏大</span></div>
+        </div>
+        <div style="background: #F7F6F3; padding: 14px 16px; display: flex; flex-direction: column; gap: 6px">
+          <span style="font-size: 13px; font-weight: 500">Yiwen · US 7.5 · 168cm · 已购</span>
+          <span style="font-size: 14px; line-height: 1.7; color: #3A3A3A">偏小半码，换了 7.5 刚好。靴筒很贴腿，配半裙很好看。走路有点累，通勤慎重。</span>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":1300}}'>
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = { color: 0, unit: 'US', size: 4, added: false };
+  }
+  renderVals() {
+    const st = this.state;
+    const colorList = [
+      { name: '巧克力棕', hex: '#5A3A2C', ink: '#F1E6DC' },
+      { name: '黑色', hex: '#1E1E1E', ink: '#E2E2E2' }
+    ];
+    const table = {
+      US: ['5', '5.5', '6', '6.5', '7', '7.5', '8', '9'],
+      EU: ['35', '35.5', '36', '37', '37.5', '38', '38.5', '40'],
+      CN: ['34', '35', '35.5', '36', '37', '37.5', '38', '39']
+    };
+    const soldOut = [0, 6];
+    const sizes = table[st.unit].map((label, i) => {
+      const isOut = soldOut.indexOf(i) !== -1;
+      const sel = st.size === i;
+      const base = 'height: 48px; font-family: inherit; font-size: 14px; cursor: pointer; ';
+      let style = base + 'border: 1px solid #CFCBC4; background: #FFFFFF; color: #141414;';
+      if (sel) style = base + 'border: 1px solid #141414; background: #141414; color: #FFFFFF; font-weight: 500;';
+      if (isOut) style = base + 'border: 1px dashed #CFCBC4; background: #F7F6F3; color: #8A8780; text-decoration: line-through; cursor: not-allowed;';
+      return {
+        label: label,
+        soldOut: isOut,
+        aria: st.unit + ' ' + label + (isOut ? '，已售罄' : ''),
+        style: style,
+        pick: () => { if (!isOut) this.setState({ size: i, added: false }); }
+      };
+    });
+    const units = ['US', 'EU', 'CN'].map((u) => ({
+      label: u,
+      style: 'min-width: 52px; height: 36px; border: 0; font-family: inherit; font-size: 13px; cursor: pointer; ' + (st.unit === u ? 'background: #141414; color: #FFFFFF;' : 'background: #FFFFFF; color: #141414;'),
+      pick: () => this.setState({ unit: u })
+    }));
+    const colors = colorList.map((c, i) => ({
+      name: c.name,
+      hex: c.hex,
+      ring: 'width: 44px; height: 44px; border-radius: 50%; padding: 0; display: flex; align-items: center; justify-content: center; background: #FFFFFF; cursor: pointer; border: ' + (st.color === i ? '1.5px solid #141414' : '1.5px solid transparent'),
+      pick: () => this.setState({ color: i })
+    }));
+    const cur = colorList[st.color];
+    return {
+      colors: colors,
+      colorName: cur.name,
+      mainBg: cur.hex,
+      mainInk: cur.ink,
+      units: units,
+      sizes: sizes,
+      lowStock: st.size === 4,
+      normalStock: st.size !== 4,
+      addLabel: st.added ? '已加入购物车' : '加入购物车',
+      cartCount: st.added ? 3 : 2,
+      addToCart: () => this.setState({ added: true })
+    };
+  }
+}
+</script>
+</body>
+</html>

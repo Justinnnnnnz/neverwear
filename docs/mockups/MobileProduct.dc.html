@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>NeverWear 商品详情 手机版</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,600&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#FFFFFF}
+a{color:#141414;text-decoration:none}a:hover{color:#C2185B}
+</style>
+</helmet>
+<div style="position: relative; width: 390px; height: 844px; overflow: hidden; background: #FFFFFF; font-family: 'Noto Sans SC', system-ui, sans-serif; color: #141414">
+  <div style="position: relative; height: 430px; background: #5A3A2C; display: flex; align-items: flex-end; justify-content: space-between; padding: 16px; box-sizing: border-box">
+    <div style="position: absolute; top: 8px; left: 6px; right: 6px; display: flex; justify-content: space-between">
+      <a href="MobileHome.dc.html" aria-label="返回" style="width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; color: #FFFFFF">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"></path></svg>
+      </a>
+      <div style="display: flex">
+        <button aria-label="加入心愿单" style="width: 44px; height: 44px; border: 0; background: transparent; color: #FFFFFF; display: flex; align-items: center; justify-content: center">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"></path></svg>
+        </button>
+        <a href="Cart.dc.html" aria-label="购物车" style="width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; color: #FFFFFF">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 8h14l-1 13H6L5 8z"></path><path d="M9 8V6a3 3 0 0 1 6 0v2"></path></svg>
+        </a>
+      </div>
+    </div>
+    <span style="font-size: 11px; letter-spacing: 0.14em; color: #F1E6DC">[ 左右滑动看图 ]</span>
+    <div style="display: flex; gap: 6px; align-items: center" aria-label="第 1 张，共 4 张">
+      <span style="width: 18px; height: 3px; background: #FFFFFF"></span>
+      <span style="width: 6px; height: 3px; background: #FFFFFF; opacity: 0.5"></span>
+      <span style="width: 6px; height: 3px; background: #FFFFFF; opacity: 0.5"></span>
+      <span style="width: 6px; height: 3px; background: #FFFFFF; opacity: 0.5"></span>
+    </div>
+  </div>
+
+  <div style="padding: 16px 16px 0; display: flex; flex-direction: column; gap: 14px">
+    <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px">
+      <div style="display: flex; flex-direction: column; gap: 2px">
+        <span style="font-size: 20px; font-weight: 500">细跟过膝靴</span>
+        <span style="font-family: 'Bodoni Moda', serif; font-size: 15px; color: #3A3A3A">Stiletto Knee Boot</span>
+      </div>
+      <div style="display: flex; flex-direction: column; align-items: flex-end; gap: 2px">
+        <span style="font-size: 18px; font-weight: 500">$189</span>
+        <span style="font-size: 12px; color: #5C5C5C; text-decoration: line-through">$239</span>
+      </div>
+    </div>
+
+    <div style="display: flex; align-items: center; gap: 10px">
+      <span style="font-size: 13px">巧克力棕</span>
+      <span style="width: 26px; height: 26px; border-radius: 50%; background: #5A3A2C; outline: 1.5px solid #141414; outline-offset: 3px"></span>
+      <span style="width: 26px; height: 26px; border-radius: 50%; background: #1E1E1E; margin-left: 6px"></span>
+    </div>
+
+    <div style="display: flex; flex-direction: column; gap: 8px">
+      <div style="display: flex; justify-content: space-between; align-items: center">
+        <span style="font-size: 13px">尺码 · <strong style="font-weight: 500">US</strong> <span style="color: #5C5C5C">/ EU / CN</span></span>
+        <a href="#" style="font-size: 12px; border-bottom: 1px solid #141414">鞋码换算</a>
+      </div>
+      <div style="display: flex; gap: 6px; overflow-x: auto">
+        <button disabled aria-label="US 5，已售罄" style="flex: none; width: 52px; height: 44px; border: 1px dashed #CFCBC4; background: #F7F6F3; color: #8A8780; text-decoration: line-through; font-family: inherit; font-size: 13px">5</button>
+        <button style="flex: none; width: 52px; height: 44px; border: 1px solid #CFCBC4; background: #FFFFFF; color: #141414; font-family: inherit; font-size: 13px">5.5</button>
+        <button style="flex: none; width: 52px; height: 44px; border: 1px solid #CFCBC4; background: #FFFFFF; color: #141414; font-family: inherit; font-size: 13px">6</button>
+        <button style="flex: none; width: 52px; height: 44px; border: 1px solid #CFCBC4; background: #FFFFFF; color: #141414; font-family: inherit; font-size: 13px">6.5</button>
+        <button style="flex: none; width: 52px; height: 44px; border: 1px solid #141414; background: #141414; color: #FFFFFF; font-family: inherit; font-size: 13px; font-weight: 500">7</button>
+        <button style="flex: none; width: 52px; height: 44px; border: 1px solid #CFCBC4; background: #FFFFFF; color: #141414; font-family: inherit; font-size: 13px">7.5</button>
+        <button style="flex: none; width: 52px; height: 44px; border: 1px solid #CFCBC4; background: #FFFFFF; color: #141414; font-family: inherit; font-size: 13px">8</button>
+      </div>
+      <span style="font-size: 13px; font-weight: 500; color: #C2185B">US 7 仅剩 1 双！23 人正在看</span>
+    </div>
+
+    <div style="background: #F2F0EB; padding: 10px 12px; font-size: 12px; line-height: 1.6; color: #3A3A3A">
+      <strong style="font-weight: 500; color: #141414">偏小半码</strong>，建议选大半码 · 跟高 9 cm · 预计 10/17–10/20 送达
+    </div>
+  </div>
+
+  <div style="position: absolute; left: 0; right: 0; bottom: 0; padding: 12px 16px 22px; background: #FFFFFF; border-top: 1px solid #E3E1DC; display: flex; gap: 10px; align-items: center">
+    <div style="display: flex; flex-direction: column">
+      <span style="font-size: 11px; color: #5C5C5C">US 7 · 巧克力棕</span>
+      <span style="font-size: 17px; font-weight: 500">$189</span>
+    </div>
+    <a href="Cart.dc.html" style="flex: 1; height: 52px; background: #141414; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-size: 15px; font-weight: 500">加入购物车</a>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return {};
+  }
+}
+</script>
+</body>
+</html>

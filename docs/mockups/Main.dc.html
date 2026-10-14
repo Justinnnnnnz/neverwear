@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>NeverWear 首页 网页版</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,600&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#FFFFFF}
+a{color:#141414;text-decoration:none}a:hover{color:#C2185B}
+</style>
+</helmet>
+<div style="font-family: 'Noto Sans SC', system-ui, sans-serif; color: #141414; background: #FFFFFF">
+  <div style="background: {{accent}}; color: #FFFFFF; font-size: 13px; letter-spacing: 0.04em; text-align: center; padding: 10px 16px">满 $150 免运费 · 30 天免费退换</div>
+
+  <header style="border-bottom: 1px solid #E3E1DC">
+    <div style="max-width: 1360px; margin: 0 auto; padding: 14px 40px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 32px">
+      <a href="#" style="font-family: 'Bodoni Moda', serif; font-size: 30px; font-weight: 600; letter-spacing: 0.12em">NEVERWEAR</a>
+      <nav aria-label="主导航" style="display: flex; flex-wrap: wrap; gap: 8px 28px; font-size: 14px; font-weight: 500">
+        <a href="#">New In</a>
+        <a href="#">外套 Outerwear</a>
+        <a href="#">上衣 Tops</a>
+        <a href="#">裙装 Skirts</a>
+        <a href="#">裤装 Pants</a>
+        <a href="#">鞋履 Shoes</a>
+        <a href="#" style="color: {{accent}}">Sale</a>
+      </nav>
+      <div style="display: flex; align-items: center; gap: 4px">
+        <button aria-label="搜索" style="width: 44px; height: 44px; border: 0; background: transparent; color: #141414; display: flex; align-items: center; justify-content: center; cursor: pointer">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
+        </button>
+        <button aria-label="心愿单" style="width: 44px; height: 44px; border: 0; background: transparent; color: #141414; display: flex; align-items: center; justify-content: center; cursor: pointer">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"></path></svg>
+        </button>
+        <button aria-label="我的账户" style="width: 44px; height: 44px; border: 0; background: transparent; color: #141414; display: flex; align-items: center; justify-content: center; cursor: pointer">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"></circle><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"></path></svg>
+        </button>
+        <button aria-label="购物车，2 件" style="position: relative; width: 44px; height: 44px; border: 0; background: transparent; color: #141414; display: flex; align-items: center; justify-content: center; cursor: pointer">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 8h14l-1 13H6L5 8z"></path><path d="M9 8V6a3 3 0 0 1 6 0v2"></path></svg>
+          <span style="position: absolute; top: 6px; right: 4px; min-width: 18px; height: 18px; border-radius: 9px; background: {{accent}}; color: #FFFFFF; font-size: 11px; font-weight: 700; display: flex; align-items: center; justify-content: center">2</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section style="max-width: 1360px; margin: 0 auto; padding: 40px 40px 0">
+    <div style="display: flex; flex-wrap: wrap; gap: 32px; align-items: stretch">
+      <div style="flex: 1 1 420px; display: flex; flex-direction: column; justify-content: center; gap: 22px; padding: 24px 0">
+        <div style="font-size: 13px; letter-spacing: 0.2em; color: #5C5C5C">FW26 · 冬季上新</div>
+        <h1 style="margin: 0; font-family: 'Bodoni Moda', serif; font-weight: 400; font-size: 76px; line-height: 1.02; letter-spacing: -0.01em">The Winter<br>Edit</h1>
+        <p style="margin: 0; font-size: 18px; line-height: 1.7; color: #3A3A3A; max-width: 440px">长大衣、羽绒服和细跟靴。FW26 冬季系列现已上新。</p>
+        <div style="display: flex; flex-wrap: wrap; gap: 12px">
+          <a href="#" style="background: #141414; color: #FFFFFF; padding: 16px 28px; font-size: 15px; font-weight: 500">选购新品</a>
+          <a href="#" style="border: 1px solid #141414; padding: 15px 28px; font-size: 15px; font-weight: 500">外套系列</a>
+        </div>
+      </div>
+      <div style="flex: 1.4 1 520px; min-height: 540px; background: #D8CFC2; display: flex; align-items: flex-end; justify-content: space-between; padding: 24px; box-sizing: border-box">
+        <span style="font-size: 12px; letter-spacing: 0.14em; color: #4A4036">[ 大片 · AI 生成模特图 ]</span>
+        <span style="font-size: 12px; letter-spacing: 0.14em; color: #4A4036">01 / 03</span>
+      </div>
+    </div>
+  </section>
+
+  <section style="max-width: 1360px; margin: 0 auto; padding: 12px 40px 0; display: flex; justify-content: flex-end">
+    <a href="#" style="font-size: 12px; color: #8A8780">本月已省 $1,284 · 查看月度报告</a>
+  </section>
+
+  <section style="max-width: 1360px; margin: 0 auto; padding: 56px 40px 0">
+    <div style="display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin-bottom: 20px">
+      <h2 style="margin: 0; font-family: 'Bodoni Moda', serif; font-weight: 400; font-size: 36px">Shop by Category</h2>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(min(180px, 100%), 1fr)); gap: 16px">
+      <sc-for list="{{categories}}" as="c" hint-placeholder-count="6">
+        <a href="#" style="display: flex; flex-direction: column; gap: 10px">
+          <div style="aspect-ratio: 3 / 4; background: {{c.bg}}"></div>
+          <div style="display: flex; flex-direction: column; gap: 2px">
+            <span style="font-size: 15px; font-weight: 500">{{c.name}}</span>
+            <span style="font-size: 12px; color: #5C5C5C">{{c.en}}</span>
+          </div>
+        </a>
+      </sc-for>
+    </div>
+  </section>
+
+  <section style="max-width: 1360px; margin: 0 auto; padding: 64px 40px 0">
+    <div style="display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 16px; margin-bottom: 20px">
+      <h2 style="margin: 0; font-family: 'Bodoni Moda', serif; font-weight: 400; font-size: 36px">New In</h2>
+      <a href="#" style="font-size: 14px; font-weight: 500; border-bottom: 1px solid #141414; padding-bottom: 2px">查看全部 312 件</a>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(min(260px, 100%), 1fr)); gap: 32px 20px">
+      <sc-for list="{{products}}" as="p" hint-placeholder-count="8">
+        <article style="display: flex; flex-direction: column; gap: 8px">
+          <div style="position: relative; aspect-ratio: 3 / 4; background: {{p.bg}}; display: flex; align-items: flex-end; padding: 14px; box-sizing: border-box">
+            <sc-if value="{{p.hasTag}}" hint-placeholder-val="{{true}}">
+              <span style="position: absolute; top: 12px; left: 12px; background: #FFFFFF; color: {{p.tagColor}}; font-size: 12px; font-weight: 500; padding: 4px 8px">{{p.tag}}</span>
+            </sc-if>
+            <button aria-label="加入心愿单" style="position: absolute; top: 4px; right: 4px; width: 44px; height: 44px; border: 0; background: transparent; color: {{p.ink}}; display: flex; align-items: center; justify-content: center; cursor: pointer">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"></path></svg>
+            </button>
+            <span style="font-size: 11px; letter-spacing: 0.14em; color: {{p.ink}}">[ 商品图 ]</span>
+          </div>
+          <div style="display: flex; justify-content: space-between; gap: 12px; font-size: 15px; margin-top: 4px">
+            <span style="font-weight: 500">{{p.name}}</span>
+            <span style="font-weight: 500">{{p.price}}</span>
+          </div>
+          <span style="font-size: 12px; color: #5C5C5C">{{p.en}}</span>
+          <div style="display: flex; gap: 6px; margin-top: 2px">
+            <sc-for list="{{p.colors}}" as="col" hint-placeholder-count="2">
+              <span style="width: 14px; height: 14px; border-radius: 50%; background: {{col}}; border: 1px solid #CFCBC4"></span>
+            </sc-for>
+          </div>
+        </article>
+      </sc-for>
+    </div>
+  </section>
+
+  <footer style="margin-top: 96px; background: #141414; color: #E8E6E1">
+    <div style="max-width: 1360px; margin: 0 auto; padding: 48px 40px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 32px">
+      <div style="display: flex; flex-direction: column; gap: 12px; max-width: 420px">
+        <span style="font-family: 'Bodoni Moda', serif; font-size: 26px; font-weight: 600; letter-spacing: 0.12em; color: #FFFFFF">NEVERWEAR</span>
+        <span style="font-size: 14px; line-height: 1.7; color: #BDBAB3">Toronto · Since 2026</span>
+        <span style="font-size: 11px; line-height: 1.6; color: #8A8780">本站为模拟购物体验，不产生真实扣款或发货。</span>
+      </div>
+      <div style="display: flex; flex-wrap: wrap; gap: 48px; font-size: 14px">
+        <div style="display: flex; flex-direction: column; gap: 10px">
+          <span style="color: #FFFFFF; font-weight: 500">帮助</span>
+          <a href="#" style="color: #BDBAB3">尺码表 / 鞋码换算</a>
+          <a href="#" style="color: #BDBAB3">物流追踪</a>
+          <a href="#" style="color: #BDBAB3">退换政策</a>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 10px">
+          <span style="color: #FFFFFF; font-weight: 500">关于</span>
+          <a href="#" style="color: #BDBAB3">这是什么</a>
+          <a href="#" style="color: #BDBAB3">NeverEats</a>
+          <a href="#" style="color: #BDBAB3">小红书</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#C2185B","options":["#C2185B","#141414","#2F5BD3","#B4521E"]},"$preview":{"width":1440,"height":2050}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const accent = this.props.accent ?? '#C2185B';
+    return {
+      accent: accent,
+      categories: [
+        { name: '外套', en: 'Outerwear', bg: '#C8A47E' },
+        { name: '上衣 / T-shirt', en: 'Tops', bg: '#ECEAE5' },
+        { name: '裙装', en: 'Dresses & Skirts', bg: '#9AA58C' },
+        { name: '裤装', en: 'Pants & Shorts', bg: '#2E3A4F' },
+        { name: '运动鞋', en: 'Sneakers', bg: '#BFC3C7' },
+        { name: '高跟鞋 / 靴', en: 'Heels & Boots', bg: '#5A3A2C' }
+      ],
+      products: [
+        { name: '细跟过膝靴', en: 'Stiletto Knee Boot', price: '$189', bg: '#5A3A2C', ink: '#F1E6DC', hasTag: true, tag: '仅剩 1 双', tagColor: accent, colors: ['#5A3A2C', '#141414'] },
+        { name: '云朵超大羽绒服', en: 'Cloud Oversized Puffer', price: '$325', bg: '#2B2B2B', ink: '#E2E2E2', hasTag: true, tag: '23 人正在看', tagColor: '#141414', colors: ['#2B2B2B', '#E8E4DA', '#7A8B6F'] },
+        { name: '方头高跟凉鞋', en: 'Square-Toe Heeled Sandal', price: '$129', bg: '#E6D8C3', ink: '#5E4E3A', hasTag: false, tag: '', tagColor: '#141414', colors: ['#E6D8C3', '#141414'] },
+        { name: '缎面中长半裙', en: 'Satin Midi Skirt', price: '$98', bg: '#9AA58C', ink: '#232A1E', hasTag: true, tag: 'New', tagColor: '#141414', colors: ['#9AA58C', '#C9B79C', '#141414'] },
+        { name: '宽松棉质 T-shirt', en: 'Relaxed Cotton Tee', price: '$38', bg: '#ECEAE5', ink: '#55524C', hasTag: false, tag: '', tagColor: '#141414', colors: ['#ECEAE5', '#141414', '#7C8DA6'] },
+        { name: '高腰阔腿西裤', en: 'High-Rise Wide Leg Pant', price: '$118', bg: '#2E3A4F', ink: '#E1E6EE', hasTag: true, tag: '-30%', tagColor: accent, colors: ['#2E3A4F', '#8C7A66'] },
+        { name: '复古跑鞋', en: 'Retro Runner', price: '$145', bg: '#BFC3C7', ink: '#2F3337', hasTag: false, tag: '', tagColor: '#141414', colors: ['#BFC3C7', '#F2F0EB'] },
+        { name: '羊毛混纺长大衣', en: 'Wool-Blend Long Coat', price: '$248', bg: '#C8A47E', ink: '#3B2C1C', hasTag: true, tag: 'Bestseller', tagColor: '#141414', colors: ['#C8A47E', '#141414', '#8A8F86'] }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>
