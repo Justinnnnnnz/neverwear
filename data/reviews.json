@@ -1,0 +1,650 @@
+[
+  {
+    "productId": "p01",
+    "nickname": "Yiwen",
+    "size": "S",
+    "height": 168,
+    "fit": "合适",
+    "rating": 5,
+    "text": "版型宽松，建议选常规尺码。实物颜色很耐看，搭配日常衣服很方便。"
+  },
+  {
+    "productId": "p01",
+    "nickname": "Mia",
+    "size": "M",
+    "height": 172,
+    "fit": "合适",
+    "rating": 4,
+    "text": "60% 羊毛 · 30% 聚酯纤维 · 10% 其他，质感比预期好。选了平时的尺码，整体很合身。"
+  },
+  {
+    "productId": "p01",
+    "nickname": "小林",
+    "size": "XS",
+    "height": 163,
+    "fit": "合适",
+    "rating": 5,
+    "text": "穿了一整天，版型保持得很好。细节做工整齐，准备再入另一个颜色。"
+  },
+  {
+    "productId": "p02",
+    "nickname": "Mia",
+    "size": "S",
+    "height": 168,
+    "fit": "合适",
+    "rating": 5,
+    "text": "超大廓形，娇小身材可选小一码。实物颜色很耐看，搭配日常衣服很方便。"
+  },
+  {
+    "productId": "p02",
+    "nickname": "小林",
+    "size": "M",
+    "height": 172,
+    "fit": "合适",
+    "rating": 4,
+    "text": "面料 100% 再生尼龙，质感比预期好。选了平时的尺码，整体很合身。"
+  },
+  {
+    "productId": "p02",
+    "nickname": "Celine",
+    "size": "XS",
+    "height": 163,
+    "fit": "合适",
+    "rating": 5,
+    "text": "穿了一整天，版型保持得很好。细节做工整齐，准备再入另一个颜色。"
+  },
+  {
+    "productId": "p03",
+    "nickname": "小林",
+    "size": "S",
+    "height": 168,
+    "fit": "合适",
+    "rating": 5,
+    "text": "短款修身，肩宽偏窄。实物颜色很耐看，搭配日常衣服很方便。"
+  },
+  {
+    "productId": "p03",
+    "nickname": "Celine",
+    "size": "M",
+    "height": 172,
+    "fit": "合适",
+    "rating": 4,
+    "text": "面料 100% 聚氨酯 · 里料 100% 聚酯纤维，质感比预期好。选了平时的尺码，整体很合身。"
+  },
+  {
+    "productId": "p03",
+    "nickname": "一颗栗子",
+    "size": "XS",
+    "height": 163,
+    "fit": "合适",
+    "rating": 5,
+    "text": "穿了一整天，版型保持得很好。细节做工整齐，准备再入另一个颜色。"
+  },
+  {
+    "productId": "p04",
+    "nickname": "Celine",
+    "size": "S",
+    "height": 168,
+    "fit": "合适",
+    "rating": 5,
+    "text": "落肩宽松版型。实物颜色很耐看，搭配日常衣服很方便。"
+  },
+  {
+    "productId": "p04",
+    "nickname": "一颗栗子",
+    "size": "M",
+    "height": 172,
+    "fit": "合适",
+    "rating": 4,
+    "text": "70% 羊毛 · 30% 聚酯纤维，质感比预期好。选了平时的尺码，整体很合身。"
+  },
+  {
+    "productId": "p04",
+    "nickname": "Yiwen",
+    "size": "XS",
+    "height": 163,
+    "fit": "合适",
+    "rating": 5,
+    "text": "穿了一整天，版型保持得很好。细节做工整齐，准备再入另一个颜色。"
+  },
+  {
+    "productId": "p05",
+    "nickname": "一颗栗子",
+    "size": "S",
+    "height": 168,
+    "fit": "合适",
+    "rating": 5,
+    "text": "宽松版型，正常选码。实物颜色很耐看，搭配日常衣服很方便。"
+  },
+  {
+    "productId": "p05",
+    "nickname": "Yiwen",
+    "size": "M",
+    "height": 172,
+    "fit": "合适",
+    "rating": 4,
+    "text": "100% 有机棉 · 240 gsm，质感比预期好。选了平时的尺码，整体很合身。"
+  },
+  {
+    "productId": "p05",
+    "nickname": "Mia",
+    "size": "XS",
+    "height": 163,
+    "fit": "合适",
+    "rating": 5,
+    "text": "穿了一整天，版型保持得很好。细节做工整齐，准备再入另一个颜色。"
+  },
+  {
+    "productId": "p06",
+    "nickname": "Yiwen",
+    "size": "S",
+    "height": 168,
+    "fit": "合适",
+    "rating": 5,
+    "text": "修身短款，弹力好。实物颜色很耐看，搭配日常衣服很方便。"
+  },
+  {
+    "productId": "p06",
+    "nickname": "Mia",
+    "size": "M",
+    "height": 172,
+    "fit": "合适",
+    "rating": 4,
+    "text": "95% 棉 · 5% 氨纶，质感比预期好。选了平时的尺码，整体很合身。"
+  },
+  {
+    "productId": "p06",
+    "nickname": "小林",
+    "size": "XS",
+    "height": 163,
+    "fit": "合适",
+    "rating": 5,
+    "text": "穿了一整天，版型保持得很好。细节做工整齐，准备再入另一个颜色。"
+  },
+  {
+    "productId": "p07",
+    "nickname": "Mia",
+    "size": "S",
+    "height": 168,
+    "fit": "合适",
+    "rating": 5,
+    "text": "合身版型。实物颜色很耐看，搭配日常衣服很方便。"
+  },
+  {
+    "productId": "p07",
+    "nickname": "小林",
+    "size": "M",
+    "height": 172,
+    "fit": "合适",
+    "rating": 4,
+    "text": "50% 美利奴羊毛 · 50% 腈纶，质感比预期好。选了平时的尺码，整体很合身。"
+  },
+  {
+    "productId": "p07",
+    "nickname": "Celine",
+    "size": "XS",
+    "height": 163,
+    "fit": "合适",
+    "rating": 5,
+    "text": "穿了一整天，版型保持得很好。细节做工整齐，准备再入另一个颜色。"
+  },
+  {
+    "productId": "p08",
+    "nickname": "小林",
+    "size": "S",
+    "height": 168,
+    "fit": "合适",
+    "rating": 5,
+    "text": "宽松 boyfriend 版型。实物颜色很耐看，搭配日常衣服很方便。"
+  },
+  {
+    "productId": "p08",
+    "nickname": "Celine",
+    "size": "M",
+    "height": 172,
+    "fit": "合适",
+    "rating": 4,
+    "text": "100% 棉，质感比预期好。选了平时的尺码，整体很合身。"
+  },
+  {
+    "productId": "p08",
+    "nickname": "一颗栗子",
+    "size": "XS",
+    "height": 163,
+    "fit": "合适",
+    "rating": 5,
+    "text": "穿了一整天，版型保持得很好。细节做工整齐，准备再入另一个颜色。"
+  },
+  {
+    "productId": "p09",
+    "nickname": "Celine",
+    "size": "S",
+    "height": 168,
+    "fit": "合适",
+    "rating": 5,
+    "text": "松紧腰，正常选码。实物颜色很耐看，搭配日常衣服很方便。"
+  },
+  {
+    "productId": "p09",
+    "nickname": "一颗栗子",
+    "size": "M",
+    "height": 172,
+    "fit": "合适",
+    "rating": 4,
+    "text": "100% 聚酯纤维缎面，质感比预期好。选了平时的尺码，整体很合身。"
+  },
+  {
+    "productId": "p09",
+    "nickname": "Yiwen",
+    "size": "XS",
+    "height": 163,
+    "fit": "合适",
+    "rating": 5,
+    "text": "穿了一整天，版型保持得很好。细节做工整齐，准备再入另一个颜色。"
+  },
+  {
+    "productId": "p10",
+    "nickname": "一颗栗子",
+    "size": "S",
+    "height": 168,
+    "fit": "合适",
+    "rating": 5,
+    "text": "偏小，臀围较宽建议大一码。实物颜色很耐看，搭配日常衣服很方便。"
+  },
+  {
+    "productId": "p10",
+    "nickname": "Yiwen",
+    "size": "M",
+    "height": 172,
+    "fit": "合适",
+    "rating": 4,
+    "text": "65% 聚酯纤维 · 35% 粘胶，质感比预期好。选了平时的尺码，整体很合身。"
+  },
+  {
+    "productId": "p10",
+    "nickname": "Mia",
+    "size": "XS",
+    "height": 163,
+    "fit": "合适",
+    "rating": 5,
+    "text": "穿了一整天，版型保持得很好。细节做工整齐，准备再入另一个颜色。"
+  },
+  {
+    "productId": "p11",
+    "nickname": "Yiwen",
+    "size": "S",
+    "height": 168,
+    "fit": "合适",
+    "rating": 5,
+    "text": "修身，弹力适中。实物颜色很耐看，搭配日常衣服很方便。"
+  },
+  {
+    "productId": "p11",
+    "nickname": "Mia",
+    "size": "M",
+    "height": 172,
+    "fit": "合适",
+    "rating": 4,
+    "text": "70% 粘胶 · 30% 锦纶，质感比预期好。选了平时的尺码，整体很合身。"
+  },
+  {
+    "productId": "p11",
+    "nickname": "小林",
+    "size": "XS",
+    "height": 163,
+    "fit": "合适",
+    "rating": 5,
+    "text": "穿了一整天，版型保持得很好。细节做工整齐，准备再入另一个颜色。"
+  },
+  {
+    "productId": "p12",
+    "nickname": "Mia",
+    "size": "S",
+    "height": 168,
+    "fit": "合适",
+    "rating": 5,
+    "text": "贴身斜裁，正常选码。实物颜色很耐看，搭配日常衣服很方便。"
+  },
+  {
+    "productId": "p12",
+    "nickname": "小林",
+    "size": "M",
+    "height": 172,
+    "fit": "合适",
+    "rating": 4,
+    "text": "100% 再生聚酯纤维缎面，质感比预期好。选了平时的尺码，整体很合身。"
+  },
+  {
+    "productId": "p12",
+    "nickname": "Celine",
+    "size": "XS",
+    "height": 163,
+    "fit": "合适",
+    "rating": 5,
+    "text": "穿了一整天，版型保持得很好。细节做工整齐，准备再入另一个颜色。"
+  },
+  {
+    "productId": "p13",
+    "nickname": "小林",
+    "size": "S",
+    "height": 168,
+    "fit": "合适",
+    "rating": 5,
+    "text": "高腰，裤长适合 165 cm 以上。实物颜色很耐看，搭配日常衣服很方便。"
+  },
+  {
+    "productId": "p13",
+    "nickname": "Celine",
+    "size": "M",
+    "height": 172,
+    "fit": "合适",
+    "rating": 4,
+    "text": "64% 聚酯纤维 · 34% 粘胶 · 2% 氨纶，质感比预期好。选了平时的尺码，整体很合身。"
+  },
+  {
+    "productId": "p13",
+    "nickname": "一颗栗子",
+    "size": "XS",
+    "height": 163,
+    "fit": "合适",
+    "rating": 5,
+    "text": "穿了一整天，版型保持得很好。细节做工整齐，准备再入另一个颜色。"
+  },
+  {
+    "productId": "p14",
+    "nickname": "Celine",
+    "size": "S",
+    "height": 168,
+    "fit": "合适",
+    "rating": 5,
+    "text": "无弹力，正常选码。实物颜色很耐看，搭配日常衣服很方便。"
+  },
+  {
+    "productId": "p14",
+    "nickname": "一颗栗子",
+    "size": "M",
+    "height": 172,
+    "fit": "合适",
+    "rating": 4,
+    "text": "100% 棉，质感比预期好。选了平时的尺码，整体很合身。"
+  },
+  {
+    "productId": "p14",
+    "nickname": "Yiwen",
+    "size": "XS",
+    "height": 163,
+    "fit": "合适",
+    "rating": 5,
+    "text": "穿了一整天，版型保持得很好。细节做工整齐，准备再入另一个颜色。"
+  },
+  {
+    "productId": "p15",
+    "nickname": "一颗栗子",
+    "size": "S",
+    "height": 168,
+    "fit": "合适",
+    "rating": 5,
+    "text": "腿部宽松弧形，正常选码。实物颜色很耐看，搭配日常衣服很方便。"
+  },
+  {
+    "productId": "p15",
+    "nickname": "Yiwen",
+    "size": "M",
+    "height": 172,
+    "fit": "合适",
+    "rating": 4,
+    "text": "99% 棉 · 1% 氨纶，质感比预期好。选了平时的尺码，整体很合身。"
+  },
+  {
+    "productId": "p15",
+    "nickname": "Mia",
+    "size": "XS",
+    "height": 163,
+    "fit": "合适",
+    "rating": 5,
+    "text": "穿了一整天，版型保持得很好。细节做工整齐，准备再入另一个颜色。"
+  },
+  {
+    "productId": "p16",
+    "nickname": "Yiwen",
+    "size": "S",
+    "height": 168,
+    "fit": "合适",
+    "rating": 5,
+    "text": "松紧腰，正常选码。实物颜色很耐看，搭配日常衣服很方便。"
+  },
+  {
+    "productId": "p16",
+    "nickname": "Mia",
+    "size": "M",
+    "height": 172,
+    "fit": "合适",
+    "rating": 4,
+    "text": "55% 亚麻 · 45% 粘胶，质感比预期好。选了平时的尺码，整体很合身。"
+  },
+  {
+    "productId": "p16",
+    "nickname": "小林",
+    "size": "XS",
+    "height": 163,
+    "fit": "合适",
+    "rating": 5,
+    "text": "穿了一整天，版型保持得很好。细节做工整齐，准备再入另一个颜色。"
+  },
+  {
+    "productId": "p17",
+    "nickname": "Mia",
+    "size": "7.5",
+    "height": 168,
+    "fit": "合适",
+    "rating": 5,
+    "text": "正码。实物颜色很耐看，搭配日常衣服很方便。"
+  },
+  {
+    "productId": "p17",
+    "nickname": "小林",
+    "size": "7.5",
+    "height": 172,
+    "fit": "合适",
+    "rating": 4,
+    "text": "鞋面 麂皮 + 网布，质感比预期好。选了平时的尺码，整体很合身。"
+  },
+  {
+    "productId": "p17",
+    "nickname": "Celine",
+    "size": "7.5",
+    "height": 163,
+    "fit": "合适",
+    "rating": 5,
+    "text": "穿了一整天，版型保持得很好。细节做工整齐，准备再入另一个颜色。"
+  },
+  {
+    "productId": "p18",
+    "nickname": "小林",
+    "size": "7.5",
+    "height": 168,
+    "fit": "合适",
+    "rating": 5,
+    "text": "偏大半码，建议选小半码。实物颜色很耐看，搭配日常衣服很方便。"
+  },
+  {
+    "productId": "p18",
+    "nickname": "Celine",
+    "size": "7.5",
+    "height": 172,
+    "fit": "合适",
+    "rating": 4,
+    "text": "鞋面 100% 牛皮，质感比预期好。选了平时的尺码，整体很合身。"
+  },
+  {
+    "productId": "p18",
+    "nickname": "一颗栗子",
+    "size": "7.5",
+    "height": 163,
+    "fit": "合适",
+    "rating": 5,
+    "text": "穿了一整天，版型保持得很好。细节做工整齐，准备再入另一个颜色。"
+  },
+  {
+    "productId": "p19",
+    "nickname": "Celine",
+    "size": "7.5",
+    "height": 168,
+    "fit": "合适",
+    "rating": 5,
+    "text": "正码。实物颜色很耐看，搭配日常衣服很方便。"
+  },
+  {
+    "productId": "p19",
+    "nickname": "一颗栗子",
+    "size": "7.5",
+    "height": 172,
+    "fit": "合适",
+    "rating": 4,
+    "text": "鞋面 合成革 + 网布，质感比预期好。选了平时的尺码，整体很合身。"
+  },
+  {
+    "productId": "p19",
+    "nickname": "Yiwen",
+    "size": "7.5",
+    "height": 163,
+    "fit": "合适",
+    "rating": 5,
+    "text": "穿了一整天，版型保持得很好。细节做工整齐，准备再入另一个颜色。"
+  },
+  {
+    "productId": "p20",
+    "nickname": "一颗栗子",
+    "size": "7.5",
+    "height": 168,
+    "fit": "合适",
+    "rating": 5,
+    "text": "偏小半码，建议选大半码。实物颜色很耐看，搭配日常衣服很方便。"
+  },
+  {
+    "productId": "p20",
+    "nickname": "Yiwen",
+    "size": "7.5",
+    "height": 172,
+    "fit": "合适",
+    "rating": 4,
+    "text": "鞋面 PU 皮，质感比预期好。选了平时的尺码，整体很合身。"
+  },
+  {
+    "productId": "p20",
+    "nickname": "Mia",
+    "size": "7.5",
+    "height": 163,
+    "fit": "合适",
+    "rating": 5,
+    "text": "穿了一整天，版型保持得很好。细节做工整齐，准备再入另一个颜色。"
+  },
+  {
+    "productId": "p21",
+    "nickname": "Yiwen",
+    "size": "7.5",
+    "height": 168,
+    "fit": "合适",
+    "rating": 5,
+    "text": "正码。实物颜色很耐看，搭配日常衣服很方便。"
+  },
+  {
+    "productId": "p21",
+    "nickname": "Mia",
+    "size": "7.5",
+    "height": 172,
+    "fit": "合适",
+    "rating": 4,
+    "text": "鞋面 100% 牛皮，质感比预期好。选了平时的尺码，整体很合身。"
+  },
+  {
+    "productId": "p21",
+    "nickname": "小林",
+    "size": "7.5",
+    "height": 163,
+    "fit": "合适",
+    "rating": 5,
+    "text": "穿了一整天，版型保持得很好。细节做工整齐，准备再入另一个颜色。"
+  },
+  {
+    "productId": "p22",
+    "nickname": "Mia",
+    "size": "7.5",
+    "height": 168,
+    "fit": "合适",
+    "rating": 5,
+    "text": "正码，脚背高建议大半码。实物颜色很耐看，搭配日常衣服很方便。"
+  },
+  {
+    "productId": "p22",
+    "nickname": "小林",
+    "size": "7.5",
+    "height": 172,
+    "fit": "合适",
+    "rating": 4,
+    "text": "鞋面 羊皮，质感比预期好。选了平时的尺码，整体很合身。"
+  },
+  {
+    "productId": "p22",
+    "nickname": "Celine",
+    "size": "7.5",
+    "height": 163,
+    "fit": "合适",
+    "rating": 5,
+    "text": "穿了一整天，版型保持得很好。细节做工整齐，准备再入另一个颜色。"
+  },
+  {
+    "productId": "p23",
+    "nickname": "小林",
+    "size": "7.5",
+    "height": 168,
+    "fit": "合适",
+    "rating": 5,
+    "text": "偏窄，脚宽建议大半码。实物颜色很耐看，搭配日常衣服很方便。"
+  },
+  {
+    "productId": "p23",
+    "nickname": "Celine",
+    "size": "7.5",
+    "height": 172,
+    "fit": "合适",
+    "rating": 4,
+    "text": "鞋面 漆皮，质感比预期好。选了平时的尺码，整体很合身。"
+  },
+  {
+    "productId": "p23",
+    "nickname": "一颗栗子",
+    "size": "7.5",
+    "height": 163,
+    "fit": "合适",
+    "rating": 5,
+    "text": "穿了一整天，版型保持得很好。细节做工整齐，准备再入另一个颜色。"
+  },
+  {
+    "productId": "p24",
+    "nickname": "Celine",
+    "size": "7.5",
+    "height": 168,
+    "fit": "合适",
+    "rating": 5,
+    "text": "正码。实物颜色很耐看，搭配日常衣服很方便。"
+  },
+  {
+    "productId": "p24",
+    "nickname": "一颗栗子",
+    "size": "7.5",
+    "height": 172,
+    "fit": "合适",
+    "rating": 4,
+    "text": "鞋面 羊皮，质感比预期好。选了平时的尺码，整体很合身。"
+  },
+  {
+    "productId": "p24",
+    "nickname": "Yiwen",
+    "size": "7.5",
+    "height": 163,
+    "fit": "合适",
+    "rating": 5,
+    "text": "穿了一整天，版型保持得很好。细节做工整齐，准备再入另一个颜色。"
+  }
+]
