@@ -1,3 +1,4 @@
+import { subcategoryLabel } from "@/lib/subcategories";
 import { getProducts } from "@/lib/data";
 import { requestTime } from "@/lib/server-time";
 import { Listing } from "@/components/listing";
@@ -12,7 +13,10 @@ export default async function SearchPage({
   const products = getProducts().filter(
     (p) =>
       !query ||
-      [p.name, p.nameEn, p.subcategory].join(" ").toLowerCase().includes(query),
+      [p.name, p.nameEn, p.subcategory, subcategoryLabel(p.subcategory)]
+        .join(" ")
+        .toLowerCase()
+        .includes(query),
   );
   return (
     <>

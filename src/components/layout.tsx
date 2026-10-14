@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import {
   Menu,
   Heart,
@@ -11,12 +11,13 @@ import {
   Grid2X2,
   Shirt,
 } from "lucide-react";
-import { categories, getByCategory } from "@/lib/data";
+import { categories } from "@/lib/data";
 import { finishStoreHydration } from "@/store/ready";
 import { useShop } from "@/store/shop";
 import { Dialog } from "./dialog";
 import { SearchOverlay } from "./search";
 import { Cart } from "./cart";
+import { DesktopNav } from "./desktop-nav";
 export function SiteLayout({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const [menu, setMenu] = useState(false);
@@ -46,33 +47,9 @@ export function SiteLayout({ children }: { children: React.ReactNode }) {
           <Link href="/" className="logo" aria-label="NeverWear 首页">
             NEVERWEAR
           </Link>
-          <nav className="desktop-nav" aria-label="主导航">
-            <Link href="/new">New In</Link>
-            <Link href="/atelier">Atelier</Link>
-            {categories.map((c) => (
-              <div className="nav-group" key={c.slug}>
-                <Link href={`/c/${c.slug}`}>{c.name.split(" /")[0]}</Link>
-                <div className="mega">
-                  <div className="container stack">
-                    <h2>{c.en}</h2>
-                    <Link href={`/c/${c.slug}`}>查看全部 {c.name}</Link>
-                    {[
-                      ...new Set(
-                        getByCategory(c.slug).map((p) => p.subcategory),
-                      ),
-                    ].map((sub) => (
-                      <Link key={sub} href={`/c/${c.slug}?subcategory=${sub}`}>
-                        {sub}
-                      </Link>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            ))}
-            <Link href="/sale" className="accent">
-              Sale
-            </Link>
-          </nav>
+          <Suspense>
+            <DesktopNav />
+          </Suspense>
           <div className="row header-actions">
             <SearchOverlay />
             <Link

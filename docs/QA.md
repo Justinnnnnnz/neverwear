@@ -32,3 +32,12 @@
 - 最终提示词保存在 `data/image-manifest.json`，通过内置 imagegen 生成；所有最终资源位于 `public/products/` 与 `public/campaign/`。
 
 截图：`qa/atelier-mobile.jpg`、`qa/atelier-desktop.jpg`。
+
+## Desktop mega menu 修复验收
+
+- 1440px / 1024px：Enter、Space、ArrowDown 可展开；ArrowDown 聚焦首项，Tab 顺序通过链接，Escape 关闭并返回原分类入口。
+- 两种宽度实测子分类点击、查询参数导航、浏览器 back/forward 后菜单关闭；外部点击关闭，无 console error。
+- 组件交互测试验证 hover 展开、移出后 150ms 延迟、移入面板取消定时器、移出入口与面板后关闭，以及 link/outside/pathname/searchParams 重置。该测试在临时 jsdom 环境中运行，未添加运行时依赖。
+- 菜单和分类页导航均为三行纵向填充，第四项进入第二列；列距 48px、行距 12px。菜单为绝对定位覆盖层，展开前后页面内容坐标一致，205px 高度（3 × 44px 触摸目标 + 2 × 12px 行距 + 48px padding + 1px border）。
+- 统一品类中文标签覆盖菜单、分类导航、过滤器、PDP 和面包屑；过滤值仍使用原 slug，未知 slug 在开发环境警告并回退。
+- 截图：`qa/mega-menu-1440.jpg`、`qa/mega-menu-1024.jpg`。

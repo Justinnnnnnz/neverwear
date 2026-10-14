@@ -3,6 +3,8 @@ import { useRef, useState } from "react";
 import Link from "next/link";
 import { Heart, Check } from "lucide-react";
 import type { Product, Review } from "@/types";
+import { categories } from "@/lib/data";
+import { subcategoryLabel } from "@/lib/subcategories";
 import { formatPrice } from "@/lib/pricing";
 import { convertShoeSize } from "@/lib/sizes";
 import { viewers, dateLabel } from "@/lib/sim";
@@ -59,7 +61,13 @@ export function PDP({
       <nav className="breadcrumb" aria-label="面包屑">
         <Link href="/">首页</Link>
         <span>/</span>
-        <Link href={`/c/${p.category}`}>{p.category}</Link>
+        <Link href={`/c/${p.category}`}>
+          {categories.find((c) => c.slug === p.category)?.name}
+        </Link>
+        <span>/</span>
+        <Link href={`/c/${p.category}?subcategory=${p.subcategory}`}>
+          {subcategoryLabel(p.subcategory)}
+        </Link>
         <span>/</span>
         <span>{p.name}</span>
       </nav>
@@ -107,7 +115,8 @@ export function PDP({
         <div className="pdp-info stack">
           <div className="stack" style={{ gap: 6 }}>
             <p className="eyebrow muted">
-              {p.isNew ? "NEW IN" : "THE COLLECTION"} · {p.subcategory}
+              {p.isNew ? "NEW IN" : "THE COLLECTION"} ·{" "}
+              {subcategoryLabel(p.subcategory)}
             </p>
             <h1>{p.name}</h1>
             <p className="display product-subtitle">{p.nameEn}</p>
