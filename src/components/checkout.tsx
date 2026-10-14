@@ -1,8 +1,190 @@
-'use client';
-import { useRef,useState } from 'react';
-import Link from 'next/link';
-import { useRouter } from 'next/navigation';
-import { useShop } from '@/store/shop';
-import { formatPrice,totals } from '@/lib/pricing';
-import { NeverPay,PriceSummary } from './cart';
-export function Checkout(){const cart=useShop(s=>s.cart);const address=useShop(s=>s.address);const setAddress=useShop(s=>s.setAddress);const placeOrder=useShop(s=>s.placeOrder);const [method,setMethod]=useState<'standard'|'express'>('standard');const [busy,setBusy]=useState(false);const [error,setError]=useState('');const lock=useRef(false);const router=useRouter();const t=totals(cart,method);async function pay(){if(lock.current||!cart.length)return;lock.current=true;setBusy(true);try{await new Promise(resolve=>setTimeout(resolve,1200));const id=placeOrder(method,address);if(id)router.push(`/order/${id}`);else{setError('购物车暂无商品，请先选购。');setBusy(false);lock.current=false;}}catch{setError('暂时无法完成，请重试。');setBusy(false);lock.current=false;}}return <main className="container section"><div className="section-title"><h1>结算</h1><Link href="/cart" className="underlined">返回购物车</Link></div>{!cart.length&&!busy?<div className="empty"><h2>选好心动单品了吗？</h2><Link href="/new" className="btn">选购新品</Link></div>:<form className="cart-layout" onSubmit={e=>{e.preventDefault();void pay();}}><div className="stack checkout-steps"><section className="stack"><h2>01 收货信息</h2><p className="muted">信息均为选填，仅保存在此设备。</p><label>收件人（选填）<input autoComplete="off" className="full" value={address.name??''} onChange={e=>setAddress({...address,name:e.target.value})}/></label><div className="form-columns"><label>城市（选填）<input className="full" value={address.city} onChange={e=>setAddress({...address,city:e.target.value})}/></label><label>省份（选填）<select className="full" value={address.province} onChange={e=>setAddress({...address,province:e.target.value})}>{['ON','BC','QC','AB','MB','SK','NS','NB','NL','PE','NT','YT','NU'].map(p=><option key={p}>{p}</option>)}</select></label></div><label>邮编（选填）<input autoComplete="off" className="full" value={address.postal??''} onChange={e=>setAddress({...address,postal:e.target.value})}/></label></section><fieldset className="stack delivery-options"><legend>02 配送方式</legend>{(['standard','express'] as const).map(m=><label key={m} className="delivery-option"><input type="radio" name="shipping" checked={method===m} onChange={()=>setMethod(m)}/><div><strong>{m==='standard'?'标准配送':'Express 配送'}</strong><p className="muted">{m==='standard'?'3–6 个工作日 · 满 $150 免运费':'1–2 个工作日'}</p></div><span>{m==='express'?'$25.00':t.subtotal>=15000?'免费':'$12.00'}</span></label>)}</fieldset><section className="stack"><h2>03 付款方式</h2><NeverPay/></section></div><aside className="cart-summary stack"><h2>Order Summary</h2><p className="muted">{cart.reduce((n,i)=>n+i.qty,0)} 件商品 · CAD</p><PriceSummary items={cart} method={method}/><button type="submit" className="btn full" disabled={busy} aria-busy={busy}>{busy?'处理中…':`支付 ${formatPrice(t.total)}`}</button><p className="faint" style={{textAlign:'center'}}>模拟支付，不会实际扣款</p>{error&&<p role="alert">{error}</p>}</aside></form>}</main>;}
+"use client";
+import { useRef, useState } from "react";
+import Link from "next/link";
+import { useRouter } from "next/navigation";
+import { useStoreReady } from "@/store/ready";
+import { StoreLoading } from "./store-loading";
+import { useShop } from "@/store/shop";
+import { formatPrice, totals } from "@/lib/pricing";
+import { NeverPay, PriceSummary } from "./cart";
+export function Checkout() {
+  const ready = useStoreReady();
+  const cart = useShop((s) => s.cart);
+  const address = useShop((s) => s.address);
+  const setAddress = useShop((s) => s.setAddress);
+  const placeOrder = useShop((s) => s.placeOrder);
+  const [method, setMethod] = useState<"standard" | "express">("standard");
+  const [busy, setBusy] = useState(false);
+  const [error, setError] = useState("");
+  const lock = useRef(false);
+  const router = useRouter();
+  const t = totals(cart, method);
+  async function pay() {
+    if (lock.current || !cart.length) return;
+    lock.current = true;
+    setBusy(true);
+    try {
+      await new Promise((resolve) => setTimeout(resolve, 1200));
+      const id = placeOrder(method, address);
+      if (id) router.push(`/order/${id}`);
+      else {
+        setError("购物车暂无商品，请先选购。");
+        setBusy(false);
+        lock.current = false;
+      }
+    } catch {
+      setError("暂时无法完成，请重试。");
+      setBusy(false);
+      lock.current = false;
+    }
+  }
+  if (!ready) return <StoreLoading />;
+  return (
+    <main className="container section">
+      <div className="section-title">
+        <h1>结算</h1>
+        <Link href="/cart" className="underlined">
+          返回购物车
+        </Link>
+      </div>
+      {!cart.length && !busy ? (
+        <div className="empty">
+          <h2>选好心动单品了吗？</h2>
+          <Link href="/new" className="btn">
+            选购新品
+          </Link>
+        </div>
+      ) : (
+        <form
+          className="cart-layout"
+          onSubmit={(e) => {
+            e.preventDefault();
+            void pay();
+          }}
+        >
+          <div className="stack checkout-steps">
+            <section className="stack">
+              <h2>01 收货信息</h2>
+              <p className="muted">信息均为选填，仅保存在此设备。</p>
+              <label>
+                收件人（选填）
+                <input
+                  autoComplete="off"
+                  className="full"
+                  value={address.name ?? ""}
+                  onChange={(e) =>
+                    setAddress({ ...address, name: e.target.value })
+                  }
+                />
+              </label>
+              <div className="form-columns">
+                <label>
+                  城市（选填）
+                  <input
+                    className="full"
+                    value={address.city}
+                    onChange={(e) =>
+                      setAddress({ ...address, city: e.target.value })
+                    }
+                  />
+                </label>
+                <label>
+                  省份（选填）
+                  <select
+                    className="full"
+                    value={address.province}
+                    onChange={(e) =>
+                      setAddress({ ...address, province: e.target.value })
+                    }
+                  >
+                    {[
+                      "ON",
+                      "BC",
+                      "QC",
+                      "AB",
+                      "MB",
+                      "SK",
+                      "NS",
+                      "NB",
+                      "NL",
+                      "PE",
+                      "NT",
+                      "YT",
+                      "NU",
+                    ].map((p) => (
+                      <option key={p}>{p}</option>
+                    ))}
+                  </select>
+                </label>
+              </div>
+              <label>
+                邮编（选填）
+                <input
+                  autoComplete="off"
+                  className="full"
+                  value={address.postal ?? ""}
+                  onChange={(e) =>
+                    setAddress({ ...address, postal: e.target.value })
+                  }
+                />
+              </label>
+            </section>
+            <fieldset className="stack delivery-options">
+              <legend>02 配送方式</legend>
+              {(["standard", "express"] as const).map((m) => (
+                <label key={m} className="delivery-option">
+                  <input
+                    type="radio"
+                    name="shipping"
+                    checked={method === m}
+                    onChange={() => setMethod(m)}
+                  />
+                  <div>
+                    <strong>
+                      {m === "standard" ? "标准配送" : "Express 配送"}
+                    </strong>
+                    <p className="muted">
+                      {m === "standard"
+                        ? "3–6 个工作日 · 满 $150 免运费"
+                        : "1–2 个工作日"}
+                    </p>
+                  </div>
+                  <span>
+                    {m === "express"
+                      ? "$25.00"
+                      : t.subtotal >= 15000
+                        ? "免费"
+                        : "$12.00"}
+                  </span>
+                </label>
+              ))}
+            </fieldset>
+            <section className="stack">
+              <h2>03 付款方式</h2>
+              <NeverPay />
+            </section>
+          </div>
+          <aside className="cart-summary stack">
+            <h2>Order Summary</h2>
+            <p className="muted">
+              {cart.reduce((n, i) => n + i.qty, 0)} 件商品 · CAD
+            </p>
+            <PriceSummary items={cart} method={method} />
+            <button
+              type="submit"
+              className="btn full"
+              disabled={busy}
+              aria-busy={busy}
+            >
+              {busy ? "处理中…" : `支付 ${formatPrice(t.total)}`}
+            </button>
+            <p className="faint" style={{ textAlign: "center" }}>
+              模拟支付，不会实际扣款
+            </p>
+            {error && <p role="alert">{error}</p>}
+          </aside>
+        </form>
+      )}
+    </main>
+  );
+}

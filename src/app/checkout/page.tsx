@@ -1,2 +1,4 @@
-import { Checkout } from '@/components/checkout';
-export default function CheckoutPage(){return <Checkout/>;}
+import { Checkout } from "@/components/checkout";
+export default function CheckoutPage() {
+  return <Checkout />;
+}
