@@ -34,7 +34,7 @@ export default async function Home() {
             <Link href={`/c/${c.slug}`} key={c.slug}>
               <div className="product-image">
                 <Image
-                  src={`/campaign/cat-${c.slug}.webp`}
+                  src={`/campaign/cat-${c.slug}.webp?v=20261014`}
                   alt={`${c.name} · ${c.en} 精选穿搭`}
                   fill
                   style={{

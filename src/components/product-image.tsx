@@ -52,20 +52,18 @@ export function ProductImage({
   return (
     <div
       className={`product-image ${className}`}
-      style={{ backgroundColor: col.hex }}
+      style={{ backgroundColor: photo ? "#EEECE8" : col.hex }}
     >
       {photo ? (
         <Image
-          src={photo}
+          src={`${photo}?v=20261014`}
           alt={`${product.name} · ${col.name} · ${index === 0 ? "正面穿搭" : "细节"}`}
           fill
           sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
           priority={priority}
           style={{
-            objectPosition:
-              product.sizeType === "shoe" && index === 0
-                ? "center bottom"
-                : "center",
+            objectFit: index === 0 ? "contain" : "cover",
+            objectPosition: "center",
           }}
         />
       ) : (

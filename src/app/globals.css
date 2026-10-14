@@ -385,7 +385,7 @@ hr {
 }
 .product-image {
   position: relative;
-  aspect-ratio: 3/4;
+  aspect-ratio: 2/3;
   overflow: hidden;
   width: 100%;
 }

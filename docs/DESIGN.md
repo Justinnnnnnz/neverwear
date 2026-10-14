@@ -38,9 +38,9 @@ Spacing: 4px base; sections 56–64px apart on desktop, 20–24px on mobile. Rad
 - **Unit toggle (US / EU / CN)**: segmented, 1px ink border, selected segment ink fill.
 - **Colour swatch**: 32px circle inside a 44px button; selected = 1.5px ink ring.
 - **Badge on product image**: white chip, 11–12px 500; text ink, or accent for scarcity/discount.
-- **Product card**: 3:4 image, name + price row, English name in muted 12px, colour dots 14px.
-- **Product photos**: AI-generated per `docs/IMAGES.md` (warm light-grey studio background #EEECE8, 2:3 source shown in 3:4 frames with `object-fit: cover`).
-- **Image placeholders** (fallback only where a generated image is missing): a 3:4 block in the product's first colour hex (each image of the gallery a slightly lighter/darker tone of it), with a simple centred line-art silhouette SVG per subcategory (coat, puffer, tee, shirt, knit, skirt, dress, pant, jeans, shorts, sneaker, boot, pump, sandal) in a contrasting tone at 40% opacity. If `product.images` exist, use `next/image` instead.
+- **Product card**: 2:3 image, name + price row, English name in muted 12px, colour dots 14px.
+- **Product photos**: AI-generated per `docs/IMAGES.md` (warm light-grey studio background #EEECE8, 2:3 source shown in 2:3 frames; on-model photos use `object-fit: contain` to preserve the entire head-to-toe composition, close-ups use `cover`).
+- **Image placeholders** (fallback only where a generated image is missing): a 2:3 block in the product's first colour hex (each image of the gallery a slightly lighter/darker tone of it), with a simple centred line-art silhouette SVG per subcategory (coat, puffer, tee, shirt, knit, skirt, dress, pant, jeans, shorts, sneaker, boot, pump, sandal) in a contrasting tone at 40% opacity. If `product.images` exist, use `next/image` instead.
 - **Mobile tab bar**: 5 items, icon + 11px label, active = ink, inactive = muted.
 
 ## Copy rules
