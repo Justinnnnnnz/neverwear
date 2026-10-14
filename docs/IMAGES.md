@@ -20,7 +20,7 @@ For now every product gets **one model try-on shot and one product close-up** (f
 
 | File | Shot | Count |
 |---|---|---|
-| `public/products/<slug>/c0-1.webp` | **On-model, front** (core: full look; Atelier: legs-and-feet) — the main image, first colour of the product | 34 |
+| `public/products/<slug>/c0-1.webp` | **On-model, front** (full-length head-to-toe, shoes fully visible) — the main image, first colour of the product | 34 |
 | `public/products/<slug>/c0-2.webp` | **Product close-up**, first colour — fabric texture, stitching, buttons, zip; for shoes the heel, toe shape and material | 34 |
 | `public/campaign/hero-1.webp`, `hero-2.webp` | Campaign / lookbook, landscape 1536×1024, home hero | 2 |
 | `public/campaign/cat-<category>.webp` | On-model image representing the category, 6 category tiles | 6 |
@@ -50,7 +50,7 @@ Then add to each product in `data/products.json` (Phase 1):
 
 The ten Atelier products add exactly twenty Phase 1 files: `c0-1.webp` on-model front and `c0-2.webp` close-up, first colour only. Keep the existing 56 core/campaign assets; total Phase 1 is 76. No Phase 2 colour shots.
 
-Atelier uses a premium luxury studio look with deep charcoal #1A1A1A or warm off-white backdrops, soft controlled lighting and the recurring fictional adult cast. Frame legs and feet, with a plain black dress or tailored trousers. Boots must show the full shaft. No brand names or branded model identifiers in prompts. No logos, monograms, lettering, numerals, stamps, watermarks or visible text on any surface, including insoles, soles, buckles and packaging. Product names in data are descriptive; technical heights/prices/sizes remain necessary specifications.
+Atelier uses a premium luxury studio look with deep charcoal #1A1A1A or warm off-white backdrops, soft controlled lighting and the recurring fictional adult cast. Use full-length head-to-toe framing and the product-specific outfits in Heels styling below. Boots must show the full shaft. No brand names or branded model identifiers in prompts. No logos, monograms, lettering, numerals, stamps, watermarks or visible text on any surface, including insoles, soles, buckles and packaging. Product names in data are descriptive; technical heights/prices/sizes remain necessary specifications.
 
 Close-up requirements:
 
@@ -118,3 +118,27 @@ Clean product shot (`-p`):
 E-commerce studio product photo of a {nameEn} in {colorName} ({hex}), {apparel: invisible ghost-mannequin front view | skirts/pants: neat flat lay from above | shoes: single shoe, 3/4 side angle slightly from above, full shaft for boots}.
 Seamless warm light-grey background #EEECE8, soft diffused light, subtle natural shadow, centred with generous margins, portrait 2:3. No logos, no text, no people.
 ```
+
+## Heels styling
+
+Outfits for heels must match the shoe’s occasion; the shoe is always fully visible. Use the same fictional model as the existing product photo (face shape, hair colour, skin tone). Full-length framing, both shoes visible, hems clear of shoes and boot shafts; ankles and feet in focus. Quiet expensive fabrics, coordinated colours, no busy prints, fur or logos; minimal fine gold or silver jewellery only. Sandals and mules use bare legs and light fabrics; boots use autumn/winter layers. Atelier retains warm off-white or deep charcoal #1A1A1A studio styling. These outfits also apply to future Phase 2 images.
+
+| Product | Outfit |
+|---|---|
+| p20 | Oat ribbed knit sweater, grey pleated mini skirt, camel wool long coat worn open; chocolate boot shaft fully visible to the knee. |
+| p21 | White poplin shirt, black cropped faux-leather jacket, straight-leg mid-blue jeans hemmed at the ankle above the boot. |
+| p22 | Fitted white baby tee tucked into sage satin midi skirt, bare legs, ankle strap visible, warm summer daylight. |
+| p23 | Oversized charcoal wool blazer, crisp white shirt, slim black ankle-length cigarette trousers exposing ankle bone, sleek low bun; polished office look. |
+| p24 | White poplin shirt tucked into champagne satin midi skirt, small gold earrings; French ballet-chic, slight three-quarter angle showing back strap. |
+| p25 | Black bias-cut silk midi slip dress, bare legs, evening look; mid-stride or three-quarter rear pose with one heel lifted to show glossy red sole. |
+| p26 | Ivory silk blouse, pale blush A-line midi skirt, delicate gold jewellery; ankle strap and studs visible. |
+| p27 | Black tuxedo blazer with satin lapels, white silk camisole, slim black cropped tuxedo trousers, gold hoops; Parisian rock-chic. |
+| p28 | Black fitted fine-knit top, black knee-length tailored pencil skirt, bare legs and sleek hair; modern workwear. |
+| p29 | Ivory satin midi slip dress, bare legs, warm resort evening light; open toe and crystal strap facing camera. |
+| p30 | White tailored blazer and matching tailored shorts, bare legs; cocktail look, crystal strap facing camera. |
+| p31 | Ivory satin column dress ending mid-calf, elegant low chignon; crystal ankle chain visible, gala/bridal mood. |
+| p32 | Black fitted knit mini dress, long black wool coat worn open; small leg gap above boot top. |
+| p33 | Black turtleneck, knee-length camel wool skirt, long camel coat; boot visible from knee down. |
+| p34 | White shirt collar beneath cream cable-knit sweater, camel quilted jacket, slim dark-wash jeans tucked into riding boots; equestrian look. |
+
+The heels category cover uses the p25 evening outfit and red-sole pumps. Only c0-1 and the category cover are replaced for a styling update; c0-2 close-ups stay unchanged. Paths stay stable; clear `.next/cache/images` after replacing images.
