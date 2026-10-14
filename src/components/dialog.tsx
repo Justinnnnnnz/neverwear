@@ -1,0 +1,4 @@
+'use client';
+import { useEffect,useRef } from 'react';
+import { X } from 'lucide-react';
+export function Dialog({title,close,children,drawer=false}:{title:string;close:()=>void;children:React.ReactNode;drawer?:boolean}) { const ref=useRef<HTMLDialogElement>(null);useEffect(()=>{const el=ref.current;const active=document.activeElement as HTMLElement;el?.showModal();const overflow=document.body.style.overflow;document.body.style.overflow='hidden';return()=>{el?.close();document.body.style.overflow=overflow;active?.focus();};},[]);return <dialog ref={ref} className={drawer?'dialog drawer':'dialog'} aria-label={title} onCancel={close} onClick={e=>{if(e.target===e.currentTarget)close();}}><div className="dialog-inner"><div className="between"><h2>{title}</h2><button className="icon-btn" aria-label="关闭" onClick={close}><X size={22}/></button></div>{children}</div></dialog>; }
