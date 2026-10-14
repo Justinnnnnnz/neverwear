@@ -11,6 +11,7 @@ Platforms: one responsive Next.js web app that works on desktop and phone, insta
 | Route | Page |
 |---|---|
 | `/` | Home |
+| `/atelier` | Atelier collection (p25–p34) |
 | `/new` | New In (all products with `isNew`) |
 | `/sale` | Sale (products with `compareAtPrice`) |
 | `/c/[category]` | Category listing (`outerwear`, `tops`, `skirts-dresses`, `pants`, `sneakers`, `heels`) |
@@ -36,6 +37,7 @@ interface Color { name: string; hex: string }
 
 interface Product {
   id: string; slug: string;
+  collection?: 'atelier';
   name: string; nameEn: string;
   category: CategorySlug; subcategory: string;   // e.g. 'boots', 'pumps', 'jeans'
   price: number; compareAtPrice: number | null;   // cents
@@ -69,7 +71,7 @@ interface ClosetItem { productId: string; color: string; size: string; orderId: 
 interface Outfit { id: string; name: string; slots: { top?: string; bottom?: string; outer?: string; shoes?: string }; createdAt: number } // slot = ClosetItem key
 ```
 
-Seed data: `data/products.json` (24 products, prices in cents). Also generate `data/reviews.json`: 2–3 realistic reviews per product (nickname, size bought, height, fit "偏小/合适/偏大", rating, text). Reviews read like real buyers (fit, fabric, how it looks on); at most 1 in 10 may be lightly funny, never parody-of-the-site.
+Seed data: `data/products.json` (34 products: 24 core + 10 Atelier, prices in cents). Also generate `data/reviews.json`: 2–3 realistic reviews per product (nickname, size bought, height, fit "偏小/合适/偏大", rating, text). Reviews read like real buyers (fit, fabric, how it looks on); at most 1 in 10 may be lightly funny, never parody-of-the-site.
 
 Shoe size table (women's, reference only — label it 参考换算):
 
@@ -77,6 +79,8 @@ Shoe size table (women's, reference only — label it 参考换算):
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | EU | 35.5 | 36 | 36.5 | 37 | 37.5 | 38 | 38.5 | 39 | 40 | 40.5 | 41 |
 | 脚长 mm | 220 | 225 | 230 | 235 | 240 | 245 | 250 | 255 | 260 | 265 | 270 |
+
+Atelier: p25–p34, ten heels and boots priced $1,095–$1,895. Keep the 24 core products unchanged. `/atelier` uses the shared listing and filters. Home includes an Atelier band featuring p25, p26, p29 and p31. The collection includes mules and riding boots; the 3 cm riding boot belongs to the 低跟 bucket.
 
 ## 4. Simulated logic (`src/lib/sim.ts`)
 
@@ -115,7 +119,7 @@ Each item = one commit (Conventional Commits). Acceptance criteria in brackets.
 14. `feat(report): monthly report` — [month picker; total saved, orders count, items, favourite category, latest-night order time, top colour; share image export 1080×1920 for 小红书]
 15. `feat(size-guide): size guide` — [apparel table (XXS–XL bust/waist/hip cm) and the shoe table from §3]
 16. `feat(pwa): manifest, icons, offline shell` — [web manifest, generated icons, theme colour, basic service worker caching the app shell; installable]
-17. `feat(images): AI-generated product and campaign photography` — [follow `docs/IMAGES.md`: generate **Phase 1 only — 56 images** (on-model front + close-up for the first colour of all 24 products, 2 hero, 6 category tiles), converted to WebP, saved under `public/`, wired into `products.json` and into hero/category tiles; card hover and PDP gallery use them; other colours show the tinted placeholder; do NOT generate Phase 2. May be split into several `feat(images): …` commits (e.g. one per category) to keep commits small]
+17. `feat(images): AI-generated product and campaign photography` — [follow `docs/IMAGES.md`: generate **Phase 1 only — 76 images** (on-model front + close-up for the first colour of all 34 products, 2 hero, 6 category tiles), converted to WebP, saved under `public/`, wired into `products.json` and into hero/category tiles; card hover and PDP gallery use them; other colours show the tinted placeholder; do NOT generate Phase 2. May be split into several `feat(images): …` commits (e.g. one per category) to keep commits small]
 18. `chore: polish, a11y, 404, README` — [keyboard nav, focus states, loading/empty states, 404, Lighthouse a11y ≥ 95 on home & PDP, README with run instructions]
 
 ## 6. Responsive rules

@@ -16,12 +16,12 @@ Generation must be **resumable**: before generating a file, check whether it alr
 
 For now every product gets **one model try-on shot and one product close-up** (first colour); more shots come in a later phase. `<color-key>` = colour index (`c0`, `c1`, …) in `products.json`.
 
-**Phase 1 — generate now (56 images total, nothing more):** one category at a time, both shots for a product before moving on.
+**Phase 1 — generate now (76 images total, nothing more):** one category at a time, both shots for a product before moving on.
 
 | File | Shot | Count |
 |---|---|---|
-| `public/products/<slug>/c0-1.webp` | **On-model, full look, front** — the main image, first colour of the product | 24 |
-| `public/products/<slug>/c0-2.webp` | **Product close-up**, first colour — fabric texture, stitching, buttons, zip; for shoes the heel, toe shape and material | 24 |
+| `public/products/<slug>/c0-1.webp` | **On-model, front** (core: full look; Atelier: legs-and-feet) — the main image, first colour of the product | 34 |
+| `public/products/<slug>/c0-2.webp` | **Product close-up**, first colour — fabric texture, stitching, buttons, zip; for shoes the heel, toe shape and material | 34 |
 | `public/campaign/hero-1.webp`, `hero-2.webp` | Campaign / lookbook, landscape 1536×1024, home hero | 2 |
 | `public/campaign/cat-<category>.webp` | On-model image representing the category, 6 category tiles | 6 |
 
@@ -45,6 +45,29 @@ Then add to each product in `data/products.json` (Phase 1):
 "images": { "c0": ["/products/<slug>/c0-1.webp", "/products/<slug>/c0-2.webp"] }
 ```
 (`images?: Record<string, string[]>`, ordered for the gallery). Any colour without an entry falls back to the tinted placeholder.
+
+## Atelier photography — p25–p34
+
+The ten Atelier products add exactly twenty Phase 1 files: `c0-1.webp` on-model front and `c0-2.webp` close-up, first colour only. Keep the existing 56 core/campaign assets; total Phase 1 is 76. No Phase 2 colour shots.
+
+Atelier uses a premium luxury studio look with deep charcoal #1A1A1A or warm off-white backdrops, soft controlled lighting and the recurring fictional adult cast. Frame legs and feet, with a plain black dress or tailored trousers. Boots must show the full shaft. No brand names or branded model identifiers in prompts. No logos, monograms, lettering, numerals, stamps, watermarks or visible text on any surface, including insoles, soles, buckles and packaging. Product names in data are descriptive; technical heights/prices/sizes remain necessary specifications.
+
+Close-up requirements:
+
+| Product | Required visible details, first colour only |
+|---|---|
+| p25 | Black calf-leather pointed pump, very thin 12 cm stiletto, low-cut V topline; angle or lift the shoe so the glossy bright-red lacquered outsole is clearly visible. |
+| p26 | Nude-pink pointed pump, thin ankle strap; dense rows of small pale-gold pyramid studs on the topline, ankle strap and back of the heel. |
+| p27 | Black patent pointed pump with a polished **gold** metal cap covering the toe tip. |
+| p28 | Black patent slingback with a polished **gold** toe cap and thin back strap. |
+| p29 | Glossy white patent open-toe mule, lower 7 cm heel; one wide front strap fully set with crystals and a central crystal ornament. |
+| p30 | Glossy white patent open-toe mule, higher 9 cm heel; the same wide crystal-set strap and central crystal ornament. Black versions are Phase 2 only. |
+| p31 | Ivory satin pointed pump, 10 cm stiletto; fine crystal ankle chain with one hanging crystal, and a row of small crystals along the heel edge. |
+| p32 | Black lambskin over-the-knee stiletto boot, soft matte leather and fitted shaft extending above the knee. |
+| p33 | Black calf-leather knee-high stiletto boot, pointed toe and clean structured shaft. |
+| p34 | Black equestrian riding boot, round toe, low 3 cm stacked heel, knee-high polished smooth leather. |
+
+Convert with the same sharp quality 82 / longest-edge 1200px policy, move every output immediately, and retain the same front → close-up gallery order.
 
 ## Visual direction
 

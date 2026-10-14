@@ -1297,5 +1297,552 @@
         "/products/kitten-heel-slingback/c0-2.webp"
       ]
     }
+  },
+  {
+    "id": "p25",
+    "slug": "red-sole-stiletto-pump",
+    "collection": "atelier",
+    "name": "真皮红底尖头高跟鞋",
+    "nameEn": "Red-Sole Leather Stiletto Pump 120",
+    "category": "heels",
+    "subcategory": "pumps",
+    "price": 109500,
+    "compareAtPrice": null,
+    "colors": [
+      {
+        "name": "黑色",
+        "hex": "#141414"
+      },
+      {
+        "name": "裸色",
+        "hex": "#D9B79B"
+      }
+    ],
+    "sizeType": "shoe",
+    "sizes": [
+      "5",
+      "5.5",
+      "6",
+      "6.5",
+      "7",
+      "7.5",
+      "8",
+      "8.5",
+      "9",
+      "9.5",
+      "10"
+    ],
+    "soldOutSizes": [
+      "6.5",
+      "7"
+    ],
+    "lowStockSizes": [
+      "7.5"
+    ],
+    "heelHeightCm": 12,
+    "fit": "偏小半码，脚宽建议大一码",
+    "description": "12 cm 极细跟尖头高跟鞋，柔软小牛皮鞋面，标志性的亮红色漆面鞋底，鞋口低 V 切线拉长脚背线条。",
+    "details": [
+      "鞋面 小牛皮 · 羊皮内里",
+      "亮红色漆面鞋底",
+      "跟高 12 cm",
+      "意大利制造"
+    ],
+    "tags": [
+      "bestseller"
+    ],
+    "isNew": false,
+    "rating": 4.8,
+    "reviewCount": 612
+  },
+  {
+    "id": "p26",
+    "slug": "pyramid-stud-pointed-pump",
+    "collection": "atelier",
+    "name": "铆钉尖头高跟鞋",
+    "nameEn": "Pyramid Stud Pointed Pump 100",
+    "category": "heels",
+    "subcategory": "pumps",
+    "price": 115000,
+    "compareAtPrice": null,
+    "colors": [
+      {
+        "name": "裸粉色",
+        "hex": "#E2C2B3"
+      },
+      {
+        "name": "黑色",
+        "hex": "#141414"
+      },
+      {
+        "name": "白色",
+        "hex": "#F4F2EE"
+      }
+    ],
+    "sizeType": "shoe",
+    "sizes": [
+      "5",
+      "5.5",
+      "6",
+      "6.5",
+      "7",
+      "7.5",
+      "8",
+      "8.5",
+      "9",
+      "9.5",
+      "10"
+    ],
+    "soldOutSizes": [
+      "7"
+    ],
+    "lowStockSizes": [
+      "6.5"
+    ],
+    "heelHeightCm": 10,
+    "fit": "正码",
+    "description": "尖头细跟高跟鞋，脚踝细扣带，鞋口、踝带和后跟边缘镶满浅金色金字塔铆钉。",
+    "details": [
+      "鞋面 小牛皮",
+      "浅金色金字塔铆钉",
+      "跟高 10 cm",
+      "可调节踝带 · 金色针扣"
+    ],
+    "tags": [
+      "bestseller"
+    ],
+    "isNew": false,
+    "rating": 4.8,
+    "reviewCount": 428
+  },
+  {
+    "id": "p27",
+    "slug": "metal-toe-cap-pump",
+    "collection": "atelier",
+    "name": "金属鞋头尖头高跟鞋",
+    "nameEn": "Metal Toe-Cap Pump 105",
+    "category": "heels",
+    "subcategory": "pumps",
+    "price": 125000,
+    "compareAtPrice": null,
+    "colors": [
+      {
+        "name": "黑色 · 金色鞋头",
+        "hex": "#141414"
+      },
+      {
+        "name": "黑色 · 银色鞋头",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "裸色 · 金色鞋头",
+        "hex": "#D9B79B"
+      }
+    ],
+    "sizeType": "shoe",
+    "sizes": [
+      "5",
+      "5.5",
+      "6",
+      "6.5",
+      "7",
+      "7.5",
+      "8",
+      "8.5",
+      "9",
+      "9.5",
+      "10"
+    ],
+    "soldOutSizes": [
+      "5.5"
+    ],
+    "lowStockSizes": [
+      "7"
+    ],
+    "heelHeightCm": 10.5,
+    "fit": "偏窄，建议大半码",
+    "description": "尖头细跟高跟鞋，鞋尖包覆一片抛光金属鞋头，金色或银色可选。",
+    "details": [
+      "鞋面 漆皮小牛皮",
+      "抛光金属鞋头（金色 / 银色）",
+      "跟高 10.5 cm",
+      "羊皮内里"
+    ],
+    "tags": [
+      "new"
+    ],
+    "isNew": true,
+    "rating": 4.7,
+    "reviewCount": 176
+  },
+  {
+    "id": "p28",
+    "slug": "metal-toe-cap-slingback",
+    "collection": "atelier",
+    "name": "金属鞋头后空鞋",
+    "nameEn": "Metal Toe-Cap Slingback 80",
+    "category": "heels",
+    "subcategory": "slingbacks",
+    "price": 112500,
+    "compareAtPrice": null,
+    "colors": [
+      {
+        "name": "黑色 · 金色鞋头",
+        "hex": "#141414"
+      },
+      {
+        "name": "黑色 · 银色鞋头",
+        "hex": "#1C1C1C"
+      }
+    ],
+    "sizeType": "shoe",
+    "sizes": [
+      "5",
+      "5.5",
+      "6",
+      "6.5",
+      "7",
+      "7.5",
+      "8",
+      "8.5",
+      "9",
+      "9.5",
+      "10"
+    ],
+    "soldOutSizes": [],
+    "lowStockSizes": [
+      "6"
+    ],
+    "heelHeightCm": 8,
+    "fit": "正码",
+    "description": "8 cm 尖头后空鞋，抛光金属鞋头配细后带，通勤和晚宴都能穿。",
+    "details": [
+      "鞋面 漆皮小牛皮",
+      "抛光金属鞋头（金色 / 银色）",
+      "跟高 8 cm",
+      "弹力后带"
+    ],
+    "tags": [],
+    "isNew": false,
+    "rating": 4.6,
+    "reviewCount": 134
+  },
+  {
+    "id": "p29",
+    "slug": "crystal-strap-mule-70",
+    "collection": "atelier",
+    "name": "水晶带高跟凉拖鞋 70",
+    "nameEn": "Crystal Strap Mule 70",
+    "category": "heels",
+    "subcategory": "mules",
+    "price": 129500,
+    "compareAtPrice": null,
+    "colors": [
+      {
+        "name": "白色漆皮",
+        "hex": "#F4F2EE"
+      },
+      {
+        "name": "黑色漆皮",
+        "hex": "#141414"
+      }
+    ],
+    "sizeType": "shoe",
+    "sizes": [
+      "5",
+      "5.5",
+      "6",
+      "6.5",
+      "7",
+      "7.5",
+      "8",
+      "8.5",
+      "9",
+      "9.5",
+      "10"
+    ],
+    "soldOutSizes": [
+      "8"
+    ],
+    "lowStockSizes": [
+      "6.5"
+    ],
+    "heelHeightCm": 7,
+    "fit": "正码",
+    "description": "7 cm 细跟漆皮穆勒凉拖鞋，脚背一条镶满水晶的宽带，前端点缀一枚闪亮的水晶装饰。",
+    "details": [
+      "鞋面 漆皮小牛皮 + 水晶镶嵌带",
+      "跟高 7 cm",
+      "皮质鞋底",
+      "意大利制造"
+    ],
+    "tags": [
+      "bestseller"
+    ],
+    "isNew": false,
+    "rating": 4.8,
+    "reviewCount": 389
+  },
+  {
+    "id": "p30",
+    "slug": "crystal-strap-mule-90",
+    "collection": "atelier",
+    "name": "水晶带高跟凉拖鞋 90",
+    "nameEn": "Crystal Strap Mule 90",
+    "category": "heels",
+    "subcategory": "mules",
+    "price": 135000,
+    "compareAtPrice": null,
+    "colors": [
+      {
+        "name": "白色漆皮",
+        "hex": "#F4F2EE"
+      },
+      {
+        "name": "黑色漆皮",
+        "hex": "#141414"
+      }
+    ],
+    "sizeType": "shoe",
+    "sizes": [
+      "5",
+      "5.5",
+      "6",
+      "6.5",
+      "7",
+      "7.5",
+      "8",
+      "8.5",
+      "9",
+      "9.5",
+      "10"
+    ],
+    "soldOutSizes": [],
+    "lowStockSizes": [
+      "7"
+    ],
+    "heelHeightCm": 9,
+    "fit": "正码",
+    "description": "9 cm 细跟漆皮穆勒凉拖鞋，同款水晶宽带，更高更显腿长。",
+    "details": [
+      "鞋面 漆皮小牛皮 + 水晶镶嵌带",
+      "跟高 9 cm",
+      "皮质鞋底",
+      "意大利制造"
+    ],
+    "tags": [
+      "new"
+    ],
+    "isNew": true,
+    "rating": 4.7,
+    "reviewCount": 201
+  },
+  {
+    "id": "p31",
+    "slug": "crystal-chain-satin-pump",
+    "collection": "atelier",
+    "name": "水晶链缎面尖头高跟鞋",
+    "nameEn": "Crystal Chain Satin Pump 100",
+    "category": "heels",
+    "subcategory": "pumps",
+    "price": 162500,
+    "compareAtPrice": null,
+    "colors": [
+      {
+        "name": "象牙白 · 水晶",
+        "hex": "#F1EBE0"
+      },
+      {
+        "name": "黑色 · 水晶",
+        "hex": "#141414"
+      }
+    ],
+    "sizeType": "shoe",
+    "sizes": [
+      "5",
+      "5.5",
+      "6",
+      "6.5",
+      "7",
+      "7.5",
+      "8",
+      "8.5",
+      "9",
+      "9.5",
+      "10"
+    ],
+    "soldOutSizes": [
+      "6"
+    ],
+    "lowStockSizes": [
+      "7.5"
+    ],
+    "heelHeightCm": 10,
+    "fit": "正码",
+    "description": "10 cm 尖头缎面细跟鞋，脚踝环绕一条细水晶链，中间垂坠一颗水晶，鞋跟边缘镶一排细水晶，像珠宝一样点缀脚踝。",
+    "details": [
+      "鞋面 缎面（28% 有机真丝 · 72% 粘胶）",
+      "水晶踝链 · 鞋跟边缘水晶镶嵌",
+      "跟高 10 cm",
+      "意大利制造"
+    ],
+    "tags": [
+      "new"
+    ],
+    "isNew": true,
+    "rating": 4.9,
+    "reviewCount": 96
+  },
+  {
+    "id": "p32",
+    "slug": "lambskin-over-the-knee-boot",
+    "collection": "atelier",
+    "name": "小羊皮过膝靴",
+    "nameEn": "Lambskin Over-the-Knee Boot 100",
+    "category": "heels",
+    "subcategory": "boots",
+    "price": 189500,
+    "compareAtPrice": null,
+    "colors": [
+      {
+        "name": "黑色",
+        "hex": "#141414"
+      },
+      {
+        "name": "巧克力棕",
+        "hex": "#4A2F24"
+      }
+    ],
+    "sizeType": "shoe",
+    "sizes": [
+      "5",
+      "5.5",
+      "6",
+      "6.5",
+      "7",
+      "7.5",
+      "8",
+      "8.5",
+      "9",
+      "9.5",
+      "10"
+    ],
+    "soldOutSizes": [],
+    "lowStockSizes": [
+      "6.5"
+    ],
+    "heelHeightCm": 10,
+    "fit": "正码，靴筒修身贴腿",
+    "description": "柔软小羊皮过膝靴，尖头细跟，靴筒贴合腿部线条，后侧隐形拉链。",
+    "details": [
+      "鞋面 小羊皮 · 羊皮内里",
+      "跟高 10 cm · 靴筒高 68 cm",
+      "后侧隐形拉链",
+      "意大利制造"
+    ],
+    "tags": [
+      "new"
+    ],
+    "isNew": true,
+    "rating": 4.7,
+    "reviewCount": 142
+  },
+  {
+    "id": "p33",
+    "slug": "stiletto-knee-high-boot",
+    "collection": "atelier",
+    "name": "细跟黑色长筒靴",
+    "nameEn": "Leather Stiletto Knee-High Boot 95",
+    "category": "heels",
+    "subcategory": "boots",
+    "price": 169500,
+    "compareAtPrice": null,
+    "colors": [
+      {
+        "name": "黑色",
+        "hex": "#141414"
+      }
+    ],
+    "sizeType": "shoe",
+    "sizes": [
+      "5",
+      "5.5",
+      "6",
+      "6.5",
+      "7",
+      "7.5",
+      "8",
+      "8.5",
+      "9",
+      "9.5",
+      "10"
+    ],
+    "soldOutSizes": [
+      "8.5"
+    ],
+    "lowStockSizes": [
+      "7"
+    ],
+    "heelHeightCm": 9.5,
+    "fit": "正码",
+    "description": "及膝高的黑色小牛皮细跟长筒靴，尖头，靴筒利落挺括。",
+    "details": [
+      "鞋面 小牛皮",
+      "跟高 9.5 cm · 靴筒高 40 cm",
+      "内侧拉链"
+    ],
+    "tags": [
+      "bestseller"
+    ],
+    "isNew": false,
+    "rating": 4.8,
+    "reviewCount": 274
+  },
+  {
+    "id": "p34",
+    "slug": "leather-riding-boot",
+    "collection": "atelier",
+    "name": "黑色骑士靴",
+    "nameEn": "Leather Riding Boot",
+    "category": "heels",
+    "subcategory": "boots",
+    "price": 149500,
+    "compareAtPrice": null,
+    "colors": [
+      {
+        "name": "黑色",
+        "hex": "#141414"
+      }
+    ],
+    "sizeType": "shoe",
+    "sizes": [
+      "5",
+      "5.5",
+      "6",
+      "6.5",
+      "7",
+      "7.5",
+      "8",
+      "8.5",
+      "9",
+      "9.5",
+      "10"
+    ],
+    "soldOutSizes": [],
+    "lowStockSizes": [
+      "8"
+    ],
+    "heelHeightCm": 3,
+    "fit": "正码，小腿较粗建议大半码",
+    "description": "经典马术骑士靴，圆头、低粗跟，及膝靴筒，光面小牛皮越穿越有光泽。",
+    "details": [
+      "鞋面 光面小牛皮",
+      "跟高 3 cm · 靴筒高 42 cm",
+      "后侧拉链 · 橡胶防滑底"
+    ],
+    "tags": [],
+    "isNew": false,
+    "rating": 4.7,
+    "reviewCount": 318
   }
 ]
