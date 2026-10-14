@@ -481,7 +481,13 @@
     ],
     "isNew": true,
     "rating": 4.6,
-    "reviewCount": 274
+    "reviewCount": 274,
+    "images": {
+      "c0": [
+        "/products/satin-midi-skirt/c0-1.webp",
+        "/products/satin-midi-skirt/c0-2.webp"
+      ]
+    }
   },
   {
     "id": "p10",
@@ -525,7 +531,13 @@
     "tags": [],
     "isNew": false,
     "rating": 4.4,
-    "reviewCount": 163
+    "reviewCount": 163,
+    "images": {
+      "c0": [
+        "/products/pleated-mini-skirt/c0-1.webp",
+        "/products/pleated-mini-skirt/c0-2.webp"
+      ]
+    }
   },
   {
     "id": "p11",
@@ -571,7 +583,13 @@
     ],
     "isNew": false,
     "rating": 4.7,
-    "reviewCount": 451
+    "reviewCount": 451,
+    "images": {
+      "c0": [
+        "/products/knit-maxi-dress/c0-1.webp",
+        "/products/knit-maxi-dress/c0-2.webp"
+      ]
+    }
   },
   {
     "id": "p12",
@@ -613,7 +631,13 @@
     "tags": [],
     "isNew": false,
     "rating": 4.5,
-    "reviewCount": 198
+    "reviewCount": 198,
+    "images": {
+      "c0": [
+        "/products/bias-cut-slip-dress/c0-1.webp",
+        "/products/bias-cut-slip-dress/c0-2.webp"
+      ]
+    }
   },
   {
     "id": "p13",
@@ -998,7 +1022,13 @@
     ],
     "isNew": true,
     "rating": 4.6,
-    "reviewCount": 128
+    "reviewCount": 128,
+    "images": {
+      "c0": [
+        "/products/stiletto-knee-boot/c0-1.webp",
+        "/products/stiletto-knee-boot/c0-2.webp"
+      ]
+    }
   },
   {
     "id": "p21",
@@ -1050,7 +1080,13 @@
     ],
     "isNew": false,
     "rating": 4.8,
-    "reviewCount": 1102
+    "reviewCount": 1102,
+    "images": {
+      "c0": [
+        "/products/block-heel-ankle-boot/c0-1.webp",
+        "/products/block-heel-ankle-boot/c0-2.webp"
+      ]
+    }
   },
   {
     "id": "p22",
@@ -1100,7 +1136,12 @@
     "tags": [],
     "isNew": false,
     "rating": 4.5,
-    "reviewCount": 310
+    "reviewCount": 310,
+    "images": {
+      "c0": [
+        "/products/square-toe-heeled-sandal/c0-1.webp"
+      ]
+    }
   },
   {
     "id": "p23",
