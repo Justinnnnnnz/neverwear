@@ -683,7 +683,13 @@
     ],
     "isNew": false,
     "rating": 4.8,
-    "reviewCount": 1630
+    "reviewCount": 1630,
+    "images": {
+      "c0": [
+        "/products/high-rise-wide-leg-pant/c0-1.webp",
+        "/products/high-rise-wide-leg-pant/c0-2.webp"
+      ]
+    }
   },
   {
     "id": "p14",
@@ -725,7 +731,13 @@
     "tags": [],
     "isNew": false,
     "rating": 4.5,
-    "reviewCount": 820
+    "reviewCount": 820,
+    "images": {
+      "c0": [
+        "/products/straight-leg-jeans/c0-1.webp",
+        "/products/straight-leg-jeans/c0-2.webp"
+      ]
+    }
   },
   {
     "id": "p15",
@@ -769,7 +781,13 @@
     ],
     "isNew": true,
     "rating": 4.3,
-    "reviewCount": 142
+    "reviewCount": 142,
+    "images": {
+      "c0": [
+        "/products/barrel-jeans/c0-1.webp",
+        "/products/barrel-jeans/c0-2.webp"
+      ]
+    }
   },
   {
     "id": "p16",
@@ -811,7 +829,13 @@
     "tags": [],
     "isNew": false,
     "rating": 4.2,
-    "reviewCount": 96
+    "reviewCount": 96,
+    "images": {
+      "c0": [
+        "/products/linen-shorts/c0-1.webp",
+        "/products/linen-shorts/c0-2.webp"
+      ]
+    }
   },
   {
     "id": "p17",
@@ -1139,7 +1163,8 @@
     "reviewCount": 310,
     "images": {
       "c0": [
-        "/products/square-toe-heeled-sandal/c0-1.webp"
+        "/products/square-toe-heeled-sandal/c0-1.webp",
+        "/products/square-toe-heeled-sandal/c0-2.webp"
       ]
     }
   },
@@ -1191,7 +1216,13 @@
     "tags": [],
     "isNew": false,
     "rating": 4.4,
-    "reviewCount": 265
+    "reviewCount": 265,
+    "images": {
+      "c0": [
+        "/products/pointed-stiletto-pump/c0-1.webp",
+        "/products/pointed-stiletto-pump/c0-2.webp"
+      ]
+    }
   },
   {
     "id": "p24",
@@ -1241,6 +1272,12 @@
     ],
     "isNew": true,
     "rating": 4.6,
-    "reviewCount": 174
+    "reviewCount": 174,
+    "images": {
+      "c0": [
+        "/products/kitten-heel-slingback/c0-1.webp",
+        "/products/kitten-heel-slingback/c0-2.webp"
+      ]
+    }
   }
 ]
