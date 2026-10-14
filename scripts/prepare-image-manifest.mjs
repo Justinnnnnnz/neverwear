@@ -17,6 +17,12 @@ const casting = [
 const common =
   "Premium minimalist fashion catalogue photography. Seamless warm light-grey backdrop #EEECE8, soft diffused even daylight, gentle natural shadow, true-to-life slightly muted matte colour. No logos, brand marks, text, labels, watermark, props, mannequins, stands, sexualised poses, or real-person likeness. Anatomically correct hands, limbs and footwear.";
 for (const [n, p] of products.entries()) {
+  if (p.collection === "atelier") {
+    for (const i of [1, 2]) {
+      if (!manifest[`public/products/${p.slug}/c0-${i}.webp`]) throw new Error(`Missing approved Atelier prompt: ${p.id}`);
+    }
+    continue;
+  }
   const c = p.colors[0];
   const framing =
     p.category === "tops"

@@ -318,5 +318,145 @@
   "public/campaign/cat-heels.webp": {
     "prompt": "Use case: product-mockup. Asset: fashion category cover, portrait 2:3, 1024x1536. Premium minimalist fashion catalogue photography. Seamless warm light-grey backdrop #EEECE8, soft diffused even daylight, gentle natural shadow, true-to-life slightly muted matte colour. No logos, brand marks, text, labels, watermark, props, mannequins, stands, sexualised poses, or real-person likeness. Anatomically correct hands, limbs and footwear. fictional East Asian woman aged 26, tall slim-to-average build, long dark hair tucked behind ears, dark eyes, softly angular face, natural minimal makeup, calm editorial expression, wearing 巧克力棕 (#5A3A2C) Stiletto Knee Boot. 尖头细跟过膝靴，贴腿靴筒，配半裙或短裙最好看。, 鞋面 PU 皮; 跟高 9 cm · 靴筒高 42 cm; 内侧拉链. Styled with simple neutral basics, head-to-toe full-length front relaxed pose, product entirely visible, centered with generous negative space.",
     "status": "done"
+  },
+  "public/products/red-sole-stiletto-pump/c0-1.webp": {
+    "prompt": "Use case: product-mockup. Premium luxury minimalist studio fashion photography, portrait aspect two to three. Warm off-white seamless backdrop, soft controlled diffused light, natural floor shadows, precise realistic material. No logos, monograms, letters, numerals, labels, stamps, text, watermark or branded marks anywhere, including insoles, soles or hardware. Anatomically correct feet and footwear. Full-length head-to-toe catalogue portrait of fictional white adult woman, shoulder-length blonde hair, oval face, twenties, tall slim-to-average build, calm editorial expression, minimal makeup. Shoe hero: black calf leather low-cut V pointed pump, extremely slender twelve-centimetre stiletto and unmistakable glossy bright red lacquered outsole; first colour exactly #141414. Outfit: black bias-cut silk midi slip dress, bare legs, evening mood; three-quarter mid-stride pose with one heel lifted to reveal glossy red outsole. Both shoes fully visible, hems never cover footwear or shaft, ankles and feet sharply in focus. Relaxed understated pose, clean negative space. No busy prints, fur or props; minimal fine jewellery only.",
+    "status": "done",
+    "productId": "p25",
+    "cast": 0,
+    "stylingVersion": "heels-occasion-v1"
+  },
+  "public/products/red-sole-stiletto-pump/c0-2.webp": {
+    "prompt": "Use case: product-mockup. Premium luxury minimalist studio fashion photography, portrait aspect two to three. Warm off-white seamless backdrop, soft controlled diffused light, natural floor shadows, precise realistic material. No logos, monograms, letters, numerals, labels, stamps, text, watermark or branded marks anywhere, including insoles, soles or hardware. Anatomically correct feet and footwear. Close-up product detail photograph of black calf leather low-cut V pointed pump, extremely slender twelve-centimetre stiletto and unmistakable glossy bright red lacquered outsole, first colour exactly #141414. Shoe fills frame, three-quarter angle showing toe, heel, sole and signature construction clearly; boots show leather texture and structured shaft. No people. Tilt shoe to clearly display bright red outsole.",
+    "status": "done",
+    "productId": "p25",
+    "cast": 0,
+    "stylingVersion": "heels-occasion-v1"
+  },
+  "public/products/pyramid-stud-pointed-pump/c0-1.webp": {
+    "prompt": "Use case: product-mockup. Premium luxury minimalist studio fashion photography, portrait aspect two to three. Warm off-white seamless backdrop, soft controlled diffused light, natural floor shadows, precise realistic material. No logos, monograms, letters, numerals, labels, stamps, text, watermark or branded marks anywhere, including insoles, soles or hardware. Anatomically correct feet and footwear. Full-length head-to-toe catalogue portrait of fictional white adult woman, long chestnut hair, softly angular face, twenties, tall slim-to-average build, calm editorial expression, minimal makeup. Shoe hero: nude pink leather pointed pump, ten-centimetre slender heel, thin ankle strap; dense small pale-gold pyramid studs along topline, ankle strap and back heel; first colour exactly #E2C2B3. Outfit: ivory silk blouse tucked into pale blush A-line midi skirt, delicate gold jewellery, thin ankle strap and dense gold pyramid studs visible. Both shoes fully visible, hems never cover footwear or shaft, ankles and feet sharply in focus. Relaxed understated pose, clean negative space. No busy prints, fur or props; minimal fine jewellery only.",
+    "status": "done",
+    "productId": "p26",
+    "cast": 1,
+    "stylingVersion": "heels-occasion-v1"
+  },
+  "public/products/pyramid-stud-pointed-pump/c0-2.webp": {
+    "prompt": "Use case: product-mockup. Premium luxury minimalist studio fashion photography, portrait aspect two to three. Warm off-white seamless backdrop, soft controlled diffused light, natural floor shadows, precise realistic material. No logos, monograms, letters, numerals, labels, stamps, text, watermark or branded marks anywhere, including insoles, soles or hardware. Anatomically correct feet and footwear. Close-up product detail photograph of nude pink leather pointed pump, ten-centimetre slender heel, thin ankle strap; dense small pale-gold pyramid studs along topline, ankle strap and back heel, first colour exactly #E2C2B3. Shoe fills frame, three-quarter angle showing toe, heel, sole and signature construction clearly; boots show leather texture and structured shaft. No people. ",
+    "status": "done",
+    "productId": "p26",
+    "cast": 1,
+    "stylingVersion": "heels-occasion-v1"
+  },
+  "public/products/metal-toe-cap-pump/c0-1.webp": {
+    "prompt": "Use case: product-mockup. Premium luxury minimalist studio fashion photography, portrait aspect two to three. Warm off-white seamless backdrop, soft controlled diffused light, natural floor shadows, precise realistic material. No logos, monograms, letters, numerals, labels, stamps, text, watermark or branded marks anywhere, including insoles, soles or hardware. Anatomically correct feet and footwear. Full-length head-to-toe catalogue portrait of fictional East Asian adult woman, sleek black shoulder-length hair, oval face, twenties, tall slim-to-average build, calm editorial expression, minimal makeup. Shoe hero: black patent leather pointed pump, slender heel, polished GOLD metal cap covering toe tip; first colour exactly #141414. Outfit: black tuxedo-style blazer with satin lapels, white silk camisole, slim black cropped tuxedo trousers, small gold hoops. Both shoes fully visible, hems never cover footwear or shaft, ankles and feet sharply in focus. Relaxed understated pose, clean negative space. No busy prints, fur or props; minimal fine jewellery only.",
+    "status": "done",
+    "productId": "p27",
+    "cast": 2,
+    "stylingVersion": "heels-occasion-v1"
+  },
+  "public/products/metal-toe-cap-pump/c0-2.webp": {
+    "prompt": "Use case: product-mockup. Premium luxury minimalist studio fashion photography, portrait aspect two to three. Warm off-white seamless backdrop, soft controlled diffused light, natural floor shadows, precise realistic material. No logos, monograms, letters, numerals, labels, stamps, text, watermark or branded marks anywhere, including insoles, soles or hardware. Anatomically correct feet and footwear. Close-up product detail photograph of black patent leather pointed pump, slender heel, polished GOLD metal cap covering toe tip, first colour exactly #141414. Shoe fills frame, three-quarter angle showing toe, heel, sole and signature construction clearly; boots show leather texture and structured shaft. No people. ",
+    "status": "done",
+    "productId": "p27",
+    "cast": 2,
+    "stylingVersion": "heels-occasion-v1"
+  },
+  "public/products/metal-toe-cap-slingback/c0-1.webp": {
+    "prompt": "Use case: product-mockup. Premium luxury minimalist studio fashion photography, portrait aspect two to three. Warm off-white seamless backdrop, soft controlled diffused light, natural floor shadows, precise realistic material. No logos, monograms, letters, numerals, labels, stamps, text, watermark or branded marks anywhere, including insoles, soles or hardware. Anatomically correct feet and footwear. Full-length head-to-toe catalogue portrait of fictional white adult woman, auburn hair, defined cheekbones, twenties, tall slim-to-average build, calm editorial expression, minimal makeup. Shoe hero: black patent leather pointed slingback pump, slender heel, polished GOLD toe cap, thin back strap; first colour exactly #141414. Outfit: black fitted fine-knit top, tailored black knee-length pencil skirt, bare legs, sleek hair; thin slingback strap visible. Both shoes fully visible, hems never cover footwear or shaft, ankles and feet sharply in focus. Relaxed understated pose, clean negative space. No busy prints, fur or props; minimal fine jewellery only.",
+    "status": "done",
+    "productId": "p28",
+    "cast": 3,
+    "stylingVersion": "heels-occasion-v1"
+  },
+  "public/products/metal-toe-cap-slingback/c0-2.webp": {
+    "prompt": "Use case: product-mockup. Premium luxury minimalist studio fashion photography, portrait aspect two to three. Warm off-white seamless backdrop, soft controlled diffused light, natural floor shadows, precise realistic material. No logos, monograms, letters, numerals, labels, stamps, text, watermark or branded marks anywhere, including insoles, soles or hardware. Anatomically correct feet and footwear. Close-up product detail photograph of black patent leather pointed slingback pump, slender heel, polished GOLD toe cap, thin back strap, first colour exactly #141414. Shoe fills frame, three-quarter angle showing toe, heel, sole and signature construction clearly; boots show leather texture and structured shaft. No people. ",
+    "status": "done",
+    "productId": "p28",
+    "cast": 3,
+    "stylingVersion": "heels-occasion-v1"
+  },
+  "public/products/crystal-strap-mule-70/c0-1.webp": {
+    "prompt": "Use case: product-mockup. Premium luxury minimalist studio fashion photography, portrait aspect two to three. Warm off-white seamless backdrop, soft controlled diffused light, natural floor shadows, precise realistic material. No logos, monograms, letters, numerals, labels, stamps, text, watermark or branded marks anywhere, including insoles, soles or hardware. Anatomically correct feet and footwear. Full-length head-to-toe catalogue portrait of fictional white adult woman, shoulder-length blonde hair, oval face, twenties, tall slim-to-average build, calm editorial expression, minimal makeup. Shoe hero: glossy WHITE patent open-toe mule, seven-centimetre heel, one wide front strap entirely paved with crystals and central crystal ornament; first colour exactly #F4F2EE. Outfit: ivory satin midi slip dress, bare legs, warm resort evening light; open toe and wide crystal strap facing camera. Both shoes fully visible, hems never cover footwear or shaft, ankles and feet sharply in focus. Relaxed understated pose, clean negative space. No busy prints, fur or props; minimal fine jewellery only.",
+    "status": "done",
+    "productId": "p29",
+    "cast": 4,
+    "stylingVersion": "heels-occasion-v1"
+  },
+  "public/products/crystal-strap-mule-70/c0-2.webp": {
+    "prompt": "Use case: product-mockup. Premium luxury minimalist studio fashion photography, portrait aspect two to three. Warm off-white seamless backdrop, soft controlled diffused light, natural floor shadows, precise realistic material. No logos, monograms, letters, numerals, labels, stamps, text, watermark or branded marks anywhere, including insoles, soles or hardware. Anatomically correct feet and footwear. Close-up product detail photograph of glossy WHITE patent open-toe mule, seven-centimetre heel, one wide front strap entirely paved with crystals and central crystal ornament, first colour exactly #F4F2EE. Shoe fills frame, three-quarter angle showing toe, heel, sole and signature construction clearly; boots show leather texture and structured shaft. No people. ",
+    "status": "done",
+    "productId": "p29",
+    "cast": 4,
+    "stylingVersion": "heels-occasion-v1"
+  },
+  "public/products/crystal-strap-mule-90/c0-1.webp": {
+    "prompt": "Use case: product-mockup. Premium luxury minimalist studio fashion photography, portrait aspect two to three. Warm off-white seamless backdrop, soft controlled diffused light, natural floor shadows, precise realistic material. No logos, monograms, letters, numerals, labels, stamps, text, watermark or branded marks anywhere, including insoles, soles or hardware. Anatomically correct feet and footwear. Full-length head-to-toe catalogue portrait of fictional white adult woman, long chestnut hair, softly angular face, twenties, tall slim-to-average build, calm editorial expression, minimal makeup. Shoe hero: glossy WHITE patent open-toe mule, nine-centimetre heel, one wide front strap entirely paved with crystals and central crystal ornament; first colour exactly #F4F2EE. Outfit: white tailored blazer with matching tailored shorts, bare legs, cocktail styling; wide crystal strap facing camera. Both shoes fully visible, hems never cover footwear or shaft, ankles and feet sharply in focus. Relaxed understated pose, clean negative space. No busy prints, fur or props; minimal fine jewellery only.",
+    "status": "done",
+    "productId": "p30",
+    "cast": 5,
+    "stylingVersion": "heels-occasion-v1"
+  },
+  "public/products/crystal-strap-mule-90/c0-2.webp": {
+    "prompt": "Use case: product-mockup. Premium luxury minimalist studio fashion photography, portrait aspect two to three. Warm off-white seamless backdrop, soft controlled diffused light, natural floor shadows, precise realistic material. No logos, monograms, letters, numerals, labels, stamps, text, watermark or branded marks anywhere, including insoles, soles or hardware. Anatomically correct feet and footwear. Close-up product detail photograph of glossy WHITE patent open-toe mule, nine-centimetre heel, one wide front strap entirely paved with crystals and central crystal ornament, first colour exactly #F4F2EE. Shoe fills frame, three-quarter angle showing toe, heel, sole and signature construction clearly; boots show leather texture and structured shaft. No people. ",
+    "status": "done",
+    "productId": "p30",
+    "cast": 5,
+    "stylingVersion": "heels-occasion-v1"
+  },
+  "public/products/crystal-chain-satin-pump/c0-1.webp": {
+    "prompt": "Use case: product-mockup. Premium luxury minimalist studio fashion photography, portrait aspect two to three. Warm off-white seamless backdrop, soft controlled diffused light, natural floor shadows, precise realistic material. No logos, monograms, letters, numerals, labels, stamps, text, watermark or branded marks anywhere, including insoles, soles or hardware. Anatomically correct feet and footwear. Full-length head-to-toe catalogue portrait of fictional East Asian adult woman, long dark hair, softly angular face, twenties, tall slim-to-average build, calm editorial expression, minimal makeup. Shoe hero: IVORY satin pointed pump, ten-centimetre slender heel, fine crystal ankle chain with one hanging crystal, small crystals along heel edge; first colour exactly #F1EBE0. Outfit: ivory satin column dress ending at mid-calf, elegant low chignon, crystal ankle chain fully visible. Both shoes fully visible, hems never cover footwear or shaft, ankles and feet sharply in focus. Relaxed understated pose, clean negative space. No busy prints, fur or props; minimal fine jewellery only.",
+    "status": "done",
+    "productId": "p31",
+    "cast": 6,
+    "stylingVersion": "heels-occasion-v1"
+  },
+  "public/products/crystal-chain-satin-pump/c0-2.webp": {
+    "prompt": "Use case: product-mockup. Premium luxury minimalist studio fashion photography, portrait aspect two to three. Warm off-white seamless backdrop, soft controlled diffused light, natural floor shadows, precise realistic material. No logos, monograms, letters, numerals, labels, stamps, text, watermark or branded marks anywhere, including insoles, soles or hardware. Anatomically correct feet and footwear. Close-up product detail photograph of IVORY satin pointed pump, ten-centimetre slender heel, fine crystal ankle chain with one hanging crystal, small crystals along heel edge, first colour exactly #F1EBE0. Shoe fills frame, three-quarter angle showing toe, heel, sole and signature construction clearly; boots show leather texture and structured shaft. No people. ",
+    "status": "done",
+    "productId": "p31",
+    "cast": 6,
+    "stylingVersion": "heels-occasion-v1"
+  },
+  "public/products/lambskin-over-the-knee-boot/c0-1.webp": {
+    "prompt": "Use case: product-mockup. Premium luxury minimalist studio fashion photography, portrait aspect two to three. Warm off-white seamless backdrop, soft controlled diffused light, natural floor shadows, precise realistic material. No logos, monograms, letters, numerals, labels, stamps, text, watermark or branded marks anywhere, including insoles, soles or hardware. Anatomically correct feet and footwear. Full-length head-to-toe catalogue portrait of fictional white adult woman, auburn hair, defined cheekbones, twenties, tall slim-to-average build, calm editorial expression, minimal makeup. Shoe hero: BLACK soft matte lambskin over-knee boot, fitted tall shaft above knee, pointed toe, slender high stiletto; first colour exactly #141414. Outfit: black fitted knit mini dress and long black wool coat worn open; small bare-leg gap above over-knee boot tops. Both shoes fully visible, hems never cover footwear or shaft, ankles and feet sharply in focus. Relaxed understated pose, clean negative space. No busy prints, fur or props; minimal fine jewellery only.",
+    "status": "done",
+    "productId": "p32",
+    "cast": 7,
+    "stylingVersion": "heels-occasion-v1"
+  },
+  "public/products/lambskin-over-the-knee-boot/c0-2.webp": {
+    "prompt": "Use case: product-mockup. Premium luxury minimalist studio fashion photography, portrait aspect two to three. Warm off-white seamless backdrop, soft controlled diffused light, natural floor shadows, precise realistic material. No logos, monograms, letters, numerals, labels, stamps, text, watermark or branded marks anywhere, including insoles, soles or hardware. Anatomically correct feet and footwear. Close-up product detail photograph of BLACK soft matte lambskin over-knee boot, fitted tall shaft above knee, pointed toe, slender high stiletto, first colour exactly #141414. Shoe fills frame, three-quarter angle showing toe, heel, sole and signature construction clearly; boots show leather texture and structured shaft. No people. ",
+    "status": "done",
+    "productId": "p32",
+    "cast": 7,
+    "stylingVersion": "heels-occasion-v1"
+  },
+  "public/products/stiletto-knee-high-boot/c0-1.webp": {
+    "prompt": "Use case: product-mockup. Premium luxury minimalist studio fashion photography, portrait aspect two to three. Warm off-white seamless backdrop, soft controlled diffused light, natural floor shadows, precise realistic material. No logos, monograms, letters, numerals, labels, stamps, text, watermark or branded marks anywhere, including insoles, soles or hardware. Anatomically correct feet and footwear. Full-length head-to-toe catalogue portrait of fictional white adult woman, shoulder-length blonde hair, oval face, twenties, tall slim-to-average build, calm editorial expression, minimal makeup. Shoe hero: BLACK smooth calf leather knee-high boot, structured shaft, pointed toe, slender high stiletto; first colour exactly #141414. Outfit: black turtleneck, knee-length camel wool skirt and long camel coat worn open; entire knee-high boot shaft exposed. Both shoes fully visible, hems never cover footwear or shaft, ankles and feet sharply in focus. Relaxed understated pose, clean negative space. No busy prints, fur or props; minimal fine jewellery only.",
+    "status": "done",
+    "productId": "p33",
+    "cast": 8,
+    "stylingVersion": "heels-occasion-v1"
+  },
+  "public/products/stiletto-knee-high-boot/c0-2.webp": {
+    "prompt": "Use case: product-mockup. Premium luxury minimalist studio fashion photography, portrait aspect two to three. Warm off-white seamless backdrop, soft controlled diffused light, natural floor shadows, precise realistic material. No logos, monograms, letters, numerals, labels, stamps, text, watermark or branded marks anywhere, including insoles, soles or hardware. Anatomically correct feet and footwear. Close-up product detail photograph of BLACK smooth calf leather knee-high boot, structured shaft, pointed toe, slender high stiletto, first colour exactly #141414. Shoe fills frame, three-quarter angle showing toe, heel, sole and signature construction clearly; boots show leather texture and structured shaft. No people. ",
+    "status": "done",
+    "productId": "p33",
+    "cast": 8,
+    "stylingVersion": "heels-occasion-v1"
+  },
+  "public/products/leather-riding-boot/c0-1.webp": {
+    "prompt": "Use case: product-mockup. Premium luxury minimalist studio fashion photography, portrait aspect two to three. Warm off-white seamless backdrop, soft controlled diffused light, natural floor shadows, precise realistic material. No logos, monograms, letters, numerals, labels, stamps, text, watermark or branded marks anywhere, including insoles, soles or hardware. Anatomically correct feet and footwear. Full-length head-to-toe catalogue portrait of fictional East Asian adult woman, sleek black hair, oval face, twenties, tall slim-to-average build, calm editorial expression, minimal makeup. Shoe hero: BLACK polished smooth calf leather knee-high riding boot, round toe, low three-centimetre stacked block heel; first colour exactly #141414. Outfit: white shirt collar under cream cable-knit sweater, camel quilted jacket, slim dark-wash jeans tucked inside knee-high riding boots. Both shoes fully visible, hems never cover footwear or shaft, ankles and feet sharply in focus. Relaxed understated pose, clean negative space. No busy prints, fur or props; minimal fine jewellery only.",
+    "status": "done",
+    "productId": "p34",
+    "cast": 9,
+    "stylingVersion": "heels-occasion-v1"
+  },
+  "public/products/leather-riding-boot/c0-2.webp": {
+    "prompt": "Use case: product-mockup. Premium luxury minimalist studio fashion photography, portrait aspect two to three. Warm off-white seamless backdrop, soft controlled diffused light, natural floor shadows, precise realistic material. No logos, monograms, letters, numerals, labels, stamps, text, watermark or branded marks anywhere, including insoles, soles or hardware. Anatomically correct feet and footwear. Close-up product detail photograph of BLACK polished smooth calf leather knee-high riding boot, round toe, low three-centimetre stacked block heel, first colour exactly #141414. Shoe fills frame, three-quarter angle showing toe, heel, sole and signature construction clearly; boots show leather texture and structured shaft. No people. ",
+    "status": "done",
+    "productId": "p34",
+    "cast": 9,
+    "stylingVersion": "heels-occasion-v1"
   }
 }

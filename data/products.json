@@ -1353,7 +1353,13 @@
     ],
     "isNew": false,
     "rating": 4.8,
-    "reviewCount": 612
+    "reviewCount": 612,
+    "images": {
+      "c0": [
+        "/products/red-sole-stiletto-pump/c0-1.webp",
+        "/products/red-sole-stiletto-pump/c0-2.webp"
+      ]
+    }
   },
   {
     "id": "p26",
@@ -1413,7 +1419,13 @@
     ],
     "isNew": false,
     "rating": 4.8,
-    "reviewCount": 428
+    "reviewCount": 428,
+    "images": {
+      "c0": [
+        "/products/pyramid-stud-pointed-pump/c0-1.webp",
+        "/products/pyramid-stud-pointed-pump/c0-2.webp"
+      ]
+    }
   },
   {
     "id": "p27",
@@ -1473,7 +1485,13 @@
     ],
     "isNew": true,
     "rating": 4.7,
-    "reviewCount": 176
+    "reviewCount": 176,
+    "images": {
+      "c0": [
+        "/products/metal-toe-cap-pump/c0-1.webp",
+        "/products/metal-toe-cap-pump/c0-2.webp"
+      ]
+    }
   },
   {
     "id": "p28",
@@ -1525,7 +1543,13 @@
     "tags": [],
     "isNew": false,
     "rating": 4.6,
-    "reviewCount": 134
+    "reviewCount": 134,
+    "images": {
+      "c0": [
+        "/products/metal-toe-cap-slingback/c0-1.webp",
+        "/products/metal-toe-cap-slingback/c0-2.webp"
+      ]
+    }
   },
   {
     "id": "p29",
@@ -1581,7 +1605,13 @@
     ],
     "isNew": false,
     "rating": 4.8,
-    "reviewCount": 389
+    "reviewCount": 389,
+    "images": {
+      "c0": [
+        "/products/crystal-strap-mule-70/c0-1.webp",
+        "/products/crystal-strap-mule-70/c0-2.webp"
+      ]
+    }
   },
   {
     "id": "p30",
@@ -1635,7 +1665,13 @@
     ],
     "isNew": true,
     "rating": 4.7,
-    "reviewCount": 201
+    "reviewCount": 201,
+    "images": {
+      "c0": [
+        "/products/crystal-strap-mule-90/c0-1.webp",
+        "/products/crystal-strap-mule-90/c0-2.webp"
+      ]
+    }
   },
   {
     "id": "p31",
@@ -1691,7 +1727,13 @@
     ],
     "isNew": true,
     "rating": 4.9,
-    "reviewCount": 96
+    "reviewCount": 96,
+    "images": {
+      "c0": [
+        "/products/crystal-chain-satin-pump/c0-1.webp",
+        "/products/crystal-chain-satin-pump/c0-2.webp"
+      ]
+    }
   },
   {
     "id": "p32",
@@ -1745,7 +1787,13 @@
     ],
     "isNew": true,
     "rating": 4.7,
-    "reviewCount": 142
+    "reviewCount": 142,
+    "images": {
+      "c0": [
+        "/products/lambskin-over-the-knee-boot/c0-1.webp",
+        "/products/lambskin-over-the-knee-boot/c0-2.webp"
+      ]
+    }
   },
   {
     "id": "p33",
@@ -1796,7 +1844,13 @@
     ],
     "isNew": false,
     "rating": 4.8,
-    "reviewCount": 274
+    "reviewCount": 274,
+    "images": {
+      "c0": [
+        "/products/stiletto-knee-high-boot/c0-1.webp",
+        "/products/stiletto-knee-high-boot/c0-2.webp"
+      ]
+    }
   },
   {
     "id": "p34",
@@ -1843,6 +1897,12 @@
     "tags": [],
     "isNew": false,
     "rating": 4.7,
-    "reviewCount": 318
+    "reviewCount": 318,
+    "images": {
+      "c0": [
+        "/products/leather-riding-boot/c0-1.webp",
+        "/products/leather-riding-boot/c0-2.webp"
+      ]
+    }
   }
 ]

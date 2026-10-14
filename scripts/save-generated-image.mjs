@@ -8,7 +8,7 @@ import {
   stat,
 } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
-const [source, target] = process.argv.slice(2);
+const [source, target, mode] = process.argv.slice(2);
 if (!source || !target)
   throw new Error(
     "Usage: node scripts/save-generated-image.mjs SOURCE MANIFEST_PATH",
@@ -17,7 +17,7 @@ const manifest = JSON.parse(await readFile("data/image-manifest.json", "utf8"));
 if (!manifest[target]) throw new Error("Target is not in the Phase 1 manifest");
 try {
   await stat(target);
-  throw new Error("Target already exists; refusing to overwrite");
+  if (mode !== "--replace") throw new Error("Target already exists; use --replace only for an authorized replacement");
 } catch (error) {
   if (error.code !== "ENOENT") throw error;
 }
