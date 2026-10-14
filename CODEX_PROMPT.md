@@ -30,7 +30,7 @@ You are building NeverWear, a simulated fashion shopping website, from scratch i
    - the GitHub repo URL,
    - the list of commits (`git log --oneline`),
    - the command to start it again later (`npm run dev`),
-   - how many of the 56 Phase 1 images you generated, and which (if any) still use placeholders,
+   - how many of the 76 Phase 1 images you generated, and which (if any) still use placeholders,
    - anything you could not complete.
 ```
 

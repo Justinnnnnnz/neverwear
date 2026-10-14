@@ -16,3 +16,6 @@ export const getByCategory = (category: string) =>
   getProducts().filter((p) => p.category === category);
 export const getReviews = (id: string) =>
   (reviewData as Review[]).filter((r) => r.productId === id);
+
+export const getAtelierProducts = () =>
+  getProducts().filter((p) => p.collection === "atelier");

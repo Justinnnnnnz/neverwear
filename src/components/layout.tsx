@@ -48,6 +48,7 @@ export function SiteLayout({ children }: { children: React.ReactNode }) {
           </Link>
           <nav className="desktop-nav" aria-label="主导航">
             <Link href="/new">New In</Link>
+            <Link href="/atelier">Atelier</Link>
             {categories.map((c) => (
               <div className="nav-group" key={c.slug}>
                 <Link href={`/c/${c.slug}`}>{c.name.split(" /")[0]}</Link>
@@ -169,6 +170,7 @@ export function SiteLayout({ children }: { children: React.ReactNode }) {
           <nav className="stack mobile-menu" aria-label="全部分类">
             {[
               { slug: "/new", name: "New In" },
+              { slug: "/atelier", name: "Atelier" },
               ...categories.map((c) => ({
                 slug: `/c/${c.slug}`,
                 name: `${c.name} · ${c.en}`,

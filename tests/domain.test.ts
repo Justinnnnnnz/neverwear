@@ -145,3 +145,16 @@ test("placing an order transfers every quantity into the closet and prevents an 
     null,
   );
 });
+
+test("Atelier contains ten exact products and riding boots use the low heel range", async () => {
+  const { getAtelierProducts, getByCategory } = await import("../src/lib/data");
+  const collection = getAtelierProducts();
+  assert.deepEqual(
+    collection.map((p) => p.id),
+    Array.from({ length: 10 }, (_, i) => `p${i + 25}`),
+  );
+  assert.equal(getByCategory("heels").length, 15);
+  assert.equal(collection.filter((p) => p.subcategory === "mules").length, 2);
+  assert.equal(collection.find((p) => p.id === "p34")?.heelHeightCm, 3);
+  assert.equal(totals([item("p25")]).subtotal, collection[0].price);
+});

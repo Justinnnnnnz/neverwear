@@ -6,6 +6,7 @@ export interface Color {
 }
 export interface Product {
   id: string;
+  collection?: "atelier";
   slug: string;
   name: string;
   nameEn: string;

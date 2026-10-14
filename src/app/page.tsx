@@ -64,6 +64,21 @@ export default async function Home() {
           now={now}
         />
       </section>
+      <section className="container section atelier-band">
+        <div className="section-title">
+          <div>
+            <p className="eyebrow">精致细节，优雅步履</p>
+            <h2>Atelier</h2>
+          </div>
+          <Link href="/atelier">探索系列 →</Link>
+        </div>
+        <ProductGrid
+          products={["p25", "p26", "p29", "p31"].map((id) =>
+            products.find((p) => p.id === id)!,
+          )}
+          now={now}
+        />
+      </section>
       <section className="container section">
         <div className="section-title">
           <h2>Bestsellers</h2>
