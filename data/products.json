@@ -889,7 +889,13 @@
     ],
     "isNew": false,
     "rating": 4.7,
-    "reviewCount": 905
+    "reviewCount": 905,
+    "images": {
+      "c0": [
+        "/products/retro-runner/c0-1.webp",
+        "/products/retro-runner/c0-2.webp"
+      ]
+    }
   },
   {
     "id": "p18",
@@ -937,7 +943,13 @@
     "tags": [],
     "isNew": false,
     "rating": 4.6,
-    "reviewCount": 640
+    "reviewCount": 640,
+    "images": {
+      "c0": [
+        "/products/leather-court-sneaker/c0-1.webp",
+        "/products/leather-court-sneaker/c0-2.webp"
+      ]
+    }
   },
   {
     "id": "p19",
@@ -991,7 +1003,13 @@
     ],
     "isNew": true,
     "rating": 4.4,
-    "reviewCount": 233
+    "reviewCount": 233,
+    "images": {
+      "c0": [
+        "/products/chunky-platform-sneaker/c0-1.webp",
+        "/products/chunky-platform-sneaker/c0-2.webp"
+      ]
+    }
   },
   {
     "id": "p20",
