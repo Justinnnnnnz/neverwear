@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-import Link from "next/link";
 import { subcategoryLabel } from "@/lib/subcategories";
 import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import { SlidersHorizontal } from "lucide-react";
@@ -149,29 +148,6 @@ export function Listing({
         <h1>{title}</h1>
         <p className="muted">{subtitle}</p>
       </div>
-      {path.startsWith("/c/") && (
-        <nav
-          className="subcategory-columns category-subnav"
-          aria-label="品类导航"
-        >
-          <Link href={path} aria-current={!sub ? "page" : undefined}>
-            查看全部 {title}
-          </Link>
-          {[...new Set(products.map((p) => p.subcategory))].map((slug) => {
-            const next = new URLSearchParams(query);
-            next.set("subcategory", slug);
-            return (
-              <Link
-                key={slug}
-                href={`${path}?${next}`}
-                aria-current={sub === slug ? "page" : undefined}
-              >
-                {subcategoryLabel(slug)}
-              </Link>
-            );
-          })}
-        </nav>
-      )}
       <div className="listing-toolbar">
         <button
           className="btn secondary mobile-only"
