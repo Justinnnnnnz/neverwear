@@ -1,4 +1,5 @@
 "use client";
+import { createLocalId } from "@/lib/id";
 import { create } from "zustand";
 import { persist, createJSONStorage } from "zustand/middleware";
 import { safeStorage } from "@/lib/storage";
@@ -74,7 +75,7 @@ export const useShop = create<Shop>()(
         })
           .format(now)
           .replace("/", "");
-        const id = `NW-${date}-${crypto.randomUUID().slice(0, 8).toUpperCase()}`;
+        const id = `NW-${date}-${createLocalId().slice(0, 8).toUpperCase()}`;
         const order: Order = {
           id,
           items: state.cart.map((i) => ({ ...i })),

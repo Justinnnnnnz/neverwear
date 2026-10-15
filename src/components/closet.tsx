@@ -1,4 +1,5 @@
 "use client";
+import { createLocalId } from "@/lib/id";
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { X, Plus, Download } from "lucide-react";
@@ -215,7 +216,7 @@ export function Closet() {
                   className="btn full"
                   disabled={!Object.values(slots).some(Boolean)}
                   onClick={() => {
-                    const id = editing ?? crypto.randomUUID();
+                    const id = editing ?? createLocalId();
                     save({
                       id,
                       name: name.trim() || "我的日常搭配",

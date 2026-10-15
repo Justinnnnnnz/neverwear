@@ -11,7 +11,7 @@ npm ci
 npm run dev
 ```
 
-打开 http://localhost:3000。以后在项目目录运行 `npm run dev` 即可。端口被占用时 Next.js 会选择下一可用端口。
+打开 http://localhost:3002。以后在项目目录运行 `npm run dev` 即可。开发预览固定使用独立的 3002 端口；启动前请确认该端口空闲。
 
 生产模式与 PWA：
 
@@ -58,3 +58,5 @@ node scripts/save-generated-image.mjs /absolute/path/generated.png public/produc
 需求、设计、摄影说明与六份原始 mockup 保留在 `docs/`。验收记录见 `docs/QA.md`，页面截图在 `docs/qa/`。
 
 本工程使用 Next.js 官方支持的 Webpack 模式，因为当前执行环境限制 Turbopack CSS 子进程的端口绑定。
+
+手机预览：运行 `npm run dev` 后，手机与电脑连接同一 Wi-Fi，访问 `http://电脑局域网IP:3002`（本机当前为 `http://10.0.0.17:3002`）。开发服务绑定 IPv4 并使用独立的 3002 端口，避免与其他项目的 3000 端口冲突。Next.js 的开发资源只允许本机实际网卡地址，IP 变化后重启服务即可。手机端普通 HTTP 也支持模拟下单和保存搭配。

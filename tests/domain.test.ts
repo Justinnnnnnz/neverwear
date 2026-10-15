@@ -158,3 +158,43 @@ test("Atelier contains ten exact products and riding boots use the low heel rang
   assert.equal(collection.find((p) => p.id === "p34")?.heelHeightCm, 3);
   assert.equal(totals([item("p25")]).subtotal, collection[0].price);
 });
+
+test("local IDs and checkout work without secure-context randomUUID", async () => {
+  const { createLocalId } = await import("../src/lib/id");
+  const original = Object.getOwnPropertyDescriptor(globalThis, "crypto");
+  try {
+    Object.defineProperty(globalThis, "crypto", {
+      configurable: true,
+      value: {
+        getRandomValues: (bytes: Uint8Array) => {
+          bytes.fill(42);
+          return bytes;
+        },
+      },
+    });
+    assert.match(
+      createLocalId(),
+      /^[a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}$/,
+    );
+    const { useShop } = await import("../src/store/shop");
+    const before = useShop.getState();
+    useShop.setState({ cart: [item("p25")], orders: [], closet: [] });
+    try {
+      assert.ok(
+        useShop
+          .getState()
+          .placeOrder("standard", { city: "Toronto", province: "ON" }),
+      );
+    } finally {
+      useShop.setState(before);
+    }
+    Object.defineProperty(globalThis, "crypto", {
+      configurable: true,
+      value: undefined,
+    });
+    assert.notEqual(createLocalId(), createLocalId());
+  } finally {
+    if (original) Object.defineProperty(globalThis, "crypto", original);
+    else Reflect.deleteProperty(globalThis, "crypto");
+  }
+});
